@@ -1,8 +1,6 @@
 format-version: 1.2
-date: 24:01:2015 12:26
-saved-by: Topito
-auto-generated-by: OBO-Edit 2.3.1
-default-namespace: mosquito_insecticide_resistance_ontology
+date: 24:05:2016 12:26
+default-namespace: insecticide_resistance_ontology
 idspace: PATO http://www.berkeleybop.org/ontologies/obo/PATO
 idspace: BFO http://www.ifomis.org/bfo/1.1/
 idspace: roproposed http://www.berkeleybop.org/ontologies/obo/OBO_REL
@@ -15,14 +13,11 @@ idspace: IDO http://www.berkeleybop.org/ontologies/obo/IDO
 idspace: CHEBI http://www.berkeleybop.org/ontologies/obo/CHEBI
 idspace: span http://www.ifomis.org/bfo/1.1/span#
 idspace: CL http://www.berkeleybop.org/ontologies/obo/CL
+idspace: MIRO http://www.berkeleybop.org/ontologies/obo/MIRO
 remark: This is an alpha version and is only for experimental implementation.
-remark: Version $Revision: 2.0.10$
-remark: This is an initial release version
-remark: Comments can be sent to
-remark: topalis[at]imbb.forth.gr or
-remark: louis[at]imbb.forth.gr
-remark: Author: IR curation team
-remark: temp version release candidate.
+remark: Version $Revision: 3.0.0$
+remark: Forked from MIRO on 25-05-2016 from miro-2015-01-24
+remark: This is an initial release version.
 treat-xrefs-as-equivalent: CHEBI
 treat-xrefs-as-equivalent: CL
 treat-xrefs-as-equivalent: EFO
@@ -29674,7 +29669,6 @@ is_a: MIRO:40003653 ! Culicinae
 [Term]
 id: MIRO:40003829
 name: Anopheles gambiae
-alt_id: MIRO:40003836
 def: "A member species of the species complex Anopheles gambiae sensu lato." [Walter_Reed:taxonomy]
 synonym: "Anopheles gambiae molecular form S" EXACT []
 synonym: "Anopheles gambiae s.s." EXACT []
