@@ -59,6 +59,64 @@ created_by: Topito
 creation_date: 2014-04-10T20:44:51Z
 
 [Term]
+id: IRO:0000001
+name: wild type allele information
+alt_id: OBI:0001369
+def: "an allele information that is about the allele found most frequently in natural populations, or in standard laboratory stocks for a given organism." []
+is_a: snap:Quality ! quality
+created_by: maccallr
+
+[Term]
+id: IRO:0000002
+name: Kdr L1014
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
+created_by: maccallr
+
+[Term]
+id: IRO:0000003
+name: Kdr L1014C
+def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide. L1014C (TGT) leads to a Leucine to Cysteine substitution." []
+is_a: MIRO:10000225 ! para
+relationship: has_quality MIRO:00000113 ! sodium channel structural change
+relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
+
+[Term]
+id: IRO:0000004
+name: Kdr F1534C
+def: "A permethrin-resistance mutation (a phenylalanine to cysteine change) in domain IIIS6 of the Aedes aegypti voltage-gated sodium channel gene." []
+is_a: MIRO:10000225 ! para
+relationship: has_quality MIRO:00000113 ! sodium channel structural change
+relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
+
+[Term]
+id: IRO:0000005
+name: artificial pit shelter
+def: "A collection method designed for sampling mosquitoes that are resting outdoors in artificially created pits, normally created under the shelter of a tree or bush." []
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0000006
+name: Amplification Refractory Mutation System
+def: "A kdr genotyping PCR based assay" []
+synonym: "ARMS" EXACT []
+is_a: MIRO:20000096 ! monitoring known mutations
+
+[Term]
+id: IRO:0000007
+name: Primer Introduced Restriction Analysis PCR
+def: "A PCR based assay for detection of kdr genotypes. The PIRA-PCR was developed as a method by which both the codons of Phe (TTT and TTC) at kdr locus can be detected by a single assay." []
+synonym: "PIRA-PCR" EXACT []
+is_a: MIRO:20000096 ! monitoring known mutations
+
+[Term]
+id: IRO:0000008
+name: kdr S989P
+def: "A mutation in the AaNaV gene that confer resistance to the pyrethroids in Aedes aegypti" []
+is_a: MIRO:10000225 ! para
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
@@ -114,28 +172,28 @@ is_a: MIRO:00000005 ! behavioural resistance
 id: MIRO:00000008
 name: Kdr V1016G
 def: "Resistance-associated point mutation of amino acid at position 1016 (V-G) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000009
 name: Kdr V1016I
 def: "Resistance-associated point mutation of amino acid at position 1016 (V-I) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000010
 name: Kdr I1011M
 def: "Resistance-associated point mutation of amino acid at position 1011 (I-M) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000011
 name: Kdr I1011V
 def: "Resistance-associated point mutation of amino acid at position 1011 (I-V) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
@@ -663,15 +721,16 @@ relationship: has_quality MIRO:00000116 ! midgut receptor structural change
 id: MIRO:00000125
 name: Kdr L1014S
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000126
 name: Kdr L1014F
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000225 ! voltage gated sodium channel
+is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
+relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
 [Term]
 id: MIRO:00000127
@@ -2317,8 +2376,11 @@ is_a: snap:Role ! role
 
 [Term]
 id: MIRO:10000225
-name: voltage gated sodium channel
+name: para
 def: "A sodium channel in a cell membrane whose opening is governed by the membrane potential." [GO:0001518]
+synonym: "kdr" RELATED []
+synonym: "kdr gene" RELATED []
+synonym: "voltage gated sodium channel" RELATED []
 is_a: MIRO:10000220 ! protein
 created_by: Pantelis
 creation_date: 2010-07-29T10:59:29Z
