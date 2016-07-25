@@ -77,7 +77,7 @@ created_by: maccallr
 [Term]
 id: IRO:0000003
 name: Kdr L1014C
-def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide. L1014C (TGT) leads to a Leucine to Cysteine substitution." []
+def: "Resistance-associated point mutation of amino acid at position 1014 (L-C) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide. L1014C (TGT) leads to a Leucine to Cysteine substitution." []
 is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
@@ -112,9 +112,39 @@ is_a: MIRO:20000096 ! monitoring known mutations
 
 [Term]
 id: IRO:0000008
-name: kdr S989P
+name: Kdr S989P
 def: "A mutation in the AaNaV gene that confer resistance to the pyrethroids in Aedes aegypti" []
 is_a: MIRO:10000225 ! para
+
+[Term]
+id: IRO:0000009
+name: Kdr F1534
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "F1534" EXACT []
+is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000010
+name: Kdr F1534S
+def: "Resistance-associated point mutation of amino acid at position 1534 (phe-ser) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." []
+synonym: "F1534S" EXACT []
+is_a: MIRO:10000225 ! para
+
+[Term]
+id: IRO:0000011
+name: Kdr F1534L
+def: "Resistance-associated point mutation of amino acid at position 1534 (phe-leu) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." []
+synonym: "F1534L" EXACT []
+is_a: MIRO:10000225 ! para
+
+[Term]
+id: IRO:0000012
+name: G119
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "G119" RELATED []
+synonym: "G119S SS" RELATED []
+is_a: MIRO:10000222 ! acetylcholinesterase
 
 [Term]
 id: MIRO:00000000
@@ -723,11 +753,12 @@ name: Kdr L1014S
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
 is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
+relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
 [Term]
 id: MIRO:00000126
 name: Kdr L1014F
-def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
+def: "Resistance-associated point mutation of amino acid at position 1014 (L-F) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
 is_a: MIRO:10000225 ! para
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
