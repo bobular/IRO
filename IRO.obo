@@ -147,6 +147,18 @@ synonym: "G119S SS" RELATED []
 is_a: MIRO:10000222 ! acetylcholinesterase
 
 [Term]
+id: IRO:0000013
+name: Short Interspersed Elements PCR (SINE PCR)
+def: "SINEs (Short INterspersed Elements) are homoplasy-free and co-dominant genetic markers which are considered to represent useful tools for population genetic studies, and are used to help clarify the speciation processes ongoing within the major malaria vector in Africa, Anopheles gambiae s.s." []
+is_a: MIRO:20000096 ! monitoring known mutations
+
+[Term]
+id: IRO:0000014
+name: knockdown collection
+def: "A collection method used for indoor resting mosquitoes. This method is necessarily biased toward endophilic, female mosquitoes in particular physiological states (especially, blood-fed and gravid conditions)." []
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
