@@ -6843,17 +6843,29 @@ id: MIRO:40000372
 name: Aedes vexans
 alt_id: NCBITaxon:7163
 def: "A species of subgenus Aedimorphus." [Water_Reed:taxonomy]
+synonym: "Aedes arabiensis" RELATED []
 synonym: "Aedes arabiensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes articulatus" RELATED []
 synonym: "Aedes articulatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes eruthrosops" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes eruthrosops" RELATED []
+synonym: "Aedes euochrus" RELATED []
 synonym: "Aedes euochrus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes malariae" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes malariae" RELATED []
+synonym: "Aedes minuta" RELATED []
 synonym: "Aedes minuta" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes montcalmi" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes montcalmi" RELATED []
 synonym: "Aedes nipponii" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes nipponii" RELATED []
 synonym: "Aedes parvus" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes parvus" RELATED []
+synonym: "Aedes Subspecies:" RELATED []
 synonym: "Aedes Subspecies:" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes sudanensis" RELATED []
 synonym: "Aedes sudanensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes sylvestris" RELATED []
 synonym: "Aedes sylvestris" RELATED [Walter_Reed:taxonomy]
 xref: NCBITaxon:7163
 is_a: MIRO:40000267 ! Aedimorphus
@@ -6862,13 +6874,21 @@ is_a: MIRO:40000267 ! Aedimorphus
 id: MIRO:40000373
 name: Aedes arabiensis
 def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
-is_a: MIRO:40000267 ! Aedimorphus
+synonym: "Aedes arabiensis" RELATED []
+is_a: MIRO:40000273 ! Aedes albodorsalis
+is_a: MIRO:40000314 ! Aedes irritans
+is_a: MIRO:40000341 ! Aedes orbitae
 
 [Term]
 id: MIRO:40000374
 name: Aedes nipponii
 def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+synonym: "aedes nipponii" RELATED []
 is_a: MIRO:40000267 ! Aedimorphus
+is_a: MIRO:40000290 ! Aedes cumminsii
+is_a: MIRO:40000306 ! Aedes gouldi
+is_a: MIRO:40000332 ! Aedes mixtus
+is_a: MIRO:40000344 ! Aedes pallidostriatus
 
 [Term]
 id: MIRO:40000375
