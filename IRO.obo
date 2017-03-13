@@ -140,7 +140,7 @@ is_a: MIRO:10000225 ! para
 
 [Term]
 id: IRO:0000012
-name: G119
+name: AChE1 G119
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "G119" RELATED []
 synonym: "G119S SS" RELATED []
@@ -148,8 +148,9 @@ is_a: MIRO:10000222 ! acetylcholinesterase
 
 [Term]
 id: IRO:0000013
-name: Short Interspersed Elements PCR (SINE PCR)
+name: Short Interspersed Elements PCR
 def: "SINEs (Short INterspersed Elements) are homoplasy-free and co-dominant genetic markers which are considered to represent useful tools for population genetic studies, and are used to help clarify the speciation processes ongoing within the major malaria vector in Africa, Anopheles gambiae s.s." []
+synonym: "SINE PCR" EXACT []
 is_a: MIRO:20000096 ! monitoring known mutations
 
 [Term]
@@ -157,6 +158,33 @@ id: IRO:0000014
 name: knockdown collection
 def: "A collection method used for indoor resting mosquitoes. This method is necessarily biased toward endophilic, female mosquitoes in particular physiological states (especially, blood-fed and gravid conditions)." []
 is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0000015
+name: swarm net catch
+def: "collection of adult, predominantly male mosquitoes using a fine net at swarming locations" []
+is_a: MIRO:30000011 ! trap catch
+created_by: lawson
+
+[Term]
+id: IRO:0000016
+name: Rdl A296
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: MIRO:00000115 ! modified GABA receptor
+relationship: has_quality IRO:0000001 ! wild type allele information
+created_by: lawson
+
+[Term]
+id: IRO:0000017
+name: barrier catch
+def: "capture of adult mosquitoes using a static physical barrier whilst in flight between designated points" []
+is_a: MIRO:30000011 ! trap catch
+created_by: skelly
+
+[Term]
+id: IRO:0000018
+name: GABA receptor structural change
+is_a: snap:Quality ! quality
 
 [Term]
 id: MIRO:00000000
@@ -167,8 +195,9 @@ is_a: snap:Disposition ! disposition
 [Term]
 id: MIRO:00000001
 name: Rdl A296S
-def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." [KL:KL]
+def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: MIRO:00000115 ! modified GABA receptor
+relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
 id: MIRO:00000002
@@ -749,8 +778,9 @@ relationship: has_quality MIRO:00000114 ! AChE structural change
 [Term]
 id: MIRO:00000123
 name: Rdl A296G
-def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
+def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: MIRO:00000115 ! modified GABA receptor
+relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
 id: MIRO:00000124
@@ -823,7 +853,8 @@ is_a: snap:Role ! role
 [Term]
 id: MIRO:10000002
 name: carbamate
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
+xref: IRAC:1A
 is_a: MIRO:10000239 ! insecticidal substance
 relationship: has_role MIRO:10000000 ! acetylcholine esterase inhibitor
 
@@ -837,7 +868,7 @@ is_a: MIRO:10000002 ! carbamate
 [Term]
 id: MIRO:10000004
 name: alanycarb
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:38463
 is_a: MIRO:10000002 ! carbamate
 
@@ -1005,7 +1036,7 @@ is_a: MIRO:10000002 ! carbamate
 [Term]
 id: MIRO:10000028
 name: xylylcarb
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:35048
 is_a: MIRO:10000002 ! carbamate
 
@@ -1027,8 +1058,9 @@ is_a: snap:Role ! role
 [Term]
 id: MIRO:10000031
 name: organophosphate
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:25708
+xref: IRAC:1B
 is_a: MIRO:10000239 ! insecticidal substance
 relationship: has_role MIRO:10000000 ! acetylcholine esterase inhibitor
 
@@ -1544,14 +1576,14 @@ is_a: MIRO:10000102 ! cyclodiene organochlorine
 [Term]
 id: MIRO:10000104
 name: endosulfan
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:4791
 is_a: MIRO:10000102 ! cyclodiene organochlorine
 
 [Term]
 id: MIRO:10000105
 name: gamma-HCH
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 synonym: "gamma-hexachlorocyclohexane" EXACT []
 xref: CHEBI:32888
 is_a: MIRO:10000102 ! cyclodiene organochlorine
@@ -1559,14 +1591,14 @@ is_a: MIRO:10000102 ! cyclodiene organochlorine
 [Term]
 id: MIRO:10000106
 name: heptachlor
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:34785
 is_a: MIRO:10000102 ! cyclodiene organochlorine
 
 [Term]
 id: MIRO:10000107
 name: lindane
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:32888
 is_a: MIRO:10000102 ! cyclodiene organochlorine
 
@@ -1947,7 +1979,7 @@ is_a: snap:Role ! role
 [Term]
 id: MIRO:10000160
 name: dieldrin
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:34696
 xref: IUPAC:(1R
 is_a: MIRO:10000102 ! cyclodiene organochlorine
@@ -6842,7 +6874,7 @@ is_a: MIRO:40000267 ! Aedimorphus
 id: MIRO:40000372
 name: Aedes vexans
 alt_id: NCBITaxon:7163
-def: "A species of subgenus Aedimorphus." [Water_Reed:taxonomy]
+def: "A species of subgenus Aedimorphus." []
 synonym: "Aedes arabiensis" RELATED []
 synonym: "Aedes arabiensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes articulatus" RELATED []
@@ -6873,7 +6905,7 @@ is_a: MIRO:40000267 ! Aedimorphus
 [Term]
 id: MIRO:40000373
 name: Aedes arabiensis
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Aedimorphus." []
 synonym: "Aedes arabiensis" RELATED []
 is_a: MIRO:40000273 ! Aedes albodorsalis
 is_a: MIRO:40000314 ! Aedes irritans
@@ -6882,7 +6914,7 @@ is_a: MIRO:40000341 ! Aedes orbitae
 [Term]
 id: MIRO:40000374
 name: Aedes nipponii
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Aedimorphus." []
 synonym: "aedes nipponii" RELATED []
 is_a: MIRO:40000267 ! Aedimorphus
 is_a: MIRO:40000290 ! Aedes cumminsii
