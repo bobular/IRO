@@ -187,6 +187,21 @@ name: GABA receptor structural change
 is_a: snap:Quality ! quality
 
 [Term]
+id: IRO:0000019
+name: Kdr N1575Y
+def: "Mutation in the voltage gated sodium channel gene that confers resistance to DDT/pyrethroids. Vgsc-1575Y enhances the action of L1014F mutation." []
+synonym: "N1575Y" EXACT []
+synonym: "Vgsc-1575Y" EXACT []
+is_a: MIRO:10000225 ! para
+relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
+
+[Term]
+id: IRO:0000020
+name: Gste2 114T
+def: "Gste2-114T has been associated with metabolic resistance to DDT" []
+is_a: MIRO:00000014 ! Glutathione S-transferase resistance
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
