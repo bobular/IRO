@@ -850,6 +850,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The Mosquito Magnet ProTM (MMP) is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The MMP also utilizes octenol as an attractant.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000022</oboInOwl:id>
+        <rdfs:label xml:lang="en">mosquito magnet pro catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
