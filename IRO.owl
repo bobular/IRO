@@ -862,6 +862,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000022"/>
+        <obo:IAO_0000115>conical drop nets 20 cm in diameter and 10 cm deep lowered into the well on a string.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000023</oboInOwl:id>
+        <rdfs:label xml:lang="en">collection of larvae from well nets</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
