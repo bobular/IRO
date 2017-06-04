@@ -202,6 +202,24 @@ def: "Gste2-114T has been associated with metabolic resistance to DDT" []
 is_a: MIRO:00000014 ! Glutathione S-transferase resistance
 
 [Term]
+id: IRO:0000021
+name: resting box catch
+def: "A collection method that allows passive collection of mosquitoes entering the box. To remove from the resting box an aspirator is used." []
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0000022
+name: mosquito magnet pro catch
+def: "The Mosquito Magnet ProTM (MMP) is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The MMP also utilizes octenol as an attractant." []
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
+id: IRO:0000023
+name: collection of larvae from well nets
+def: "conical drop nets 20 cm in diameter and 10 cm deep lowered into the well on a string." []
+is_a: MIRO:30000022 ! collection of larvae
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
