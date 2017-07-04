@@ -220,6 +220,12 @@ def: "conical drop nets 20 cm in diameter and 10 cm deep lowered into the well o
 is_a: MIRO:30000022 ! collection of larvae
 
 [Term]
+id: IRO:0000024
+name: Gste2 L119F
+def: "Gste2 L119F has been associated with metabolic resistance to DDT." []
+is_a: MIRO:00000014 ! Glutathione S-transferase resistance
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
