@@ -244,7 +244,7 @@ is_a: MIRO:10000220 ! protein
 
 [Term]
 id: IRO:0000026
-name: Acetellic 300 CS
+name: Actellic 300 CS
 def: "Micro-encapsulated formulation of the organophosphate insecticide pirimiphos-methyl for long lasting control of mosquitoes and other public health and nuisance pests" []
 is_a: MIRO:10000082 ! pirimiphos-methyl
 

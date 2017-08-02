@@ -953,7 +953,7 @@
         <obo:IAO_0000115>Micro-encapsulated formulation of the organophosphate insecticide pirimiphos-methyl for long lasting control of mosquitoes and other public health and nuisance pests</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000026</oboInOwl:id>
-        <rdfs:label xml:lang="en">Acetellic 300 CS</rdfs:label>
+        <rdfs:label xml:lang="en">Actellic 300 CS</rdfs:label>
     </owl:Class>
     
 
