@@ -1048,6 +1048,58 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/snap_Object"/>
+        <obo:IAO_0000115>A substance which attracts.</obo:IAO_0000115>
+        <oboInOwl:created_by>IRO:0000034</oboInOwl:created_by>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">attractant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000035</oboInOwl:id>
+        <rdfs:label xml:lang="en">CO2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>1-Octen-3-ol, octenol for short and also known as mushroom alcohol, is a chemical that attracts biting insects such as mosquitoes.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000036</oboInOwl:id>
+        <rdfs:label xml:lang="en">octenol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>An attractant used for the collection of Culex mosquito species.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000037</oboInOwl:id>
+        <rdfs:label xml:lang="en">hay or grass infusion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
