@@ -958,6 +958,96 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
+        <obo:IAO_0000115>ABC Trap is the basic American Biophysics battery powered portable light trap. This flexible trap is setting a new standard for quality of construction and reliability in Dipteran collection equipment.With the addition of a net and battery, the ABC TRAP1 is field ready.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000027</oboInOwl:id>
+        <rdfs:label xml:lang="en">ABC trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The BG-Sentinel mosquito trap mimics convection currents created by a human body, employs attractive visual cues, releases artificial skin emanations through a large surface area, can be used without CO2 to specifically capture selected mosquito species is an excellent general mosquito trap when used with CO2.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000028</oboInOwl:id>
+        <rdfs:label xml:lang="en">BGS trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
+        <obo:IAO_0000115>Encephalitis virus surveillance trap. Light trap baited with CO2.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000029</oboInOwl:id>
+        <rdfs:label xml:lang="en">EVS trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The trap attracts females by means of an oviposition medium contained in a pan below the trap. The trap operates by creating an upward current of air from within the confines of the pan, so that the mosquitoes are blown into the collection bag during their preoviposition examination of the oviposition medium. This trap selects for gravid females.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000030</oboInOwl:id>
+        <rdfs:label xml:lang="en">gravid trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
+        <obo:IAO_0000115>The New Jersey Stainless Steel Light Trap Model 1112 has been a long time standard for mosquito control operations. The large stainless steel trap is usually permanently mounted and is available with an optional PhotoSwitch and Programmable Seven-day Timer.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000031</oboInOwl:id>
+        <rdfs:label xml:lang="en">new jersey trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The Omni-Directional Fay-Prince Trap Model 112 is a daytime trap which is quite specific for Aedes aegypti and Aedes albopictus adults of both sexes; it will capture gravid and nulliparous females. Based on the original CDC Fay-Prince Trap, this Model 112 trap increases the collection of females since they can be captured arriving in any direction. The addition of dry ice which involves CO2 gas, results in significant increases in the number and diversity of mosquitoes caught and makes the location of the trap less critical.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000032</oboInOwl:id>
+        <rdfs:label xml:lang="en">omni-directional fay-prince trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>A sweep net is a funnel-shaped net attached to a long-handled frame that is swept back and forth through the foliage. Insects captured in the net are then counted. A sweep net is a cost-effective way to monitor for the presence of a variety of insect pests.</obo:IAO_0000115>
+        <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000033</oboInOwl:id>
+        <rdfs:label xml:lang="en">sweep net catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
