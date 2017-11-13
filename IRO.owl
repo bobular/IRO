@@ -1138,6 +1138,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>I1011</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000040</oboInOwl:id>
+        <rdfs:label xml:lang="en">Kdr I1011</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
