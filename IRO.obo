@@ -249,6 +249,105 @@ def: "Micro-encapsulated formulation of the organophosphate insecticide pirimiph
 is_a: MIRO:10000082 ! pirimiphos-methyl
 
 [Term]
+id: IRO:0000027
+name: ABC trap catch
+def: "ABC Trap is the basic American Biophysics battery powered portable light trap. This flexible trap is setting a new standard for quality of construction and reliability in Dipteran collection equipment.With the addition of a net and battery, the ABC TRAP1 is field ready." []
+is_a: MIRO:30000065 ! light trap catch
+
+[Term]
+id: IRO:0000028
+name: BGS trap catch
+def: "The BG-Sentinel mosquito trap mimics convection currents created by a human body, employs attractive visual cues, releases artificial skin emanations through a large surface area, can be used without CO2 to specifically capture selected mosquito species is an excellent general mosquito trap when used with CO2." []
+is_a: MIRO:30000011 ! trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000029
+name: EVS trap catch
+def: "Encephalitis virus surveillance trap. Light trap baited with CO2." []
+is_a: MIRO:30000065 ! light trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000030
+name: gravid trap catch
+def: "The trap attracts females by means of an oviposition medium contained in a pan below the trap. The trap operates by creating an upward current of air from within the confines of the pan, so that the mosquitoes are blown into the collection bag during their preoviposition examination of the oviposition medium. This trap selects for gravid females." []
+is_a: MIRO:30000011 ! trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000031
+name: new jersey trap catch
+def: "The New Jersey Stainless Steel Light Trap Model 1112 has been a long time standard for mosquito control operations. The large stainless steel trap is usually permanently mounted and is available with an optional PhotoSwitch and Programmable Seven-day Timer." []
+is_a: MIRO:30000065 ! light trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000032
+name: omni-directional fay-prince trap catch
+def: "The Omni-Directional Fay-Prince Trap Model 112 is a daytime trap which is quite specific for Aedes aegypti and Aedes albopictus adults of both sexes; it will capture gravid and nulliparous females. Based on the original CDC Fay-Prince Trap, this Model 112 trap increases the collection of females since they can be captured arriving in any direction. The addition of dry ice which involves CO2 gas, results in significant increases in the number and diversity of mosquitoes caught and makes the location of the trap less critical." []
+is_a: MIRO:30000011 ! trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000033
+name: sweep net catch
+def: "A sweep net is a funnel-shaped net attached to a long-handled frame that is swept back and forth through the foliage. Insects captured in the net are then counted. A sweep net is a cost-effective way to monitor for the presence of a variety of insect pests." []
+is_a: MIRO:30000011 ! trap catch
+created_by: Sakelly
+
+[Term]
+id: IRO:0000034
+name: attractant
+def: "A substance which attracts." []
+is_a: snap:Object ! object
+created_by: Sakelly
+
+[Term]
+id: IRO:0000035
+name: CO2
+def: "a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis." []
+is_a: IRO:0000034 ! attractant
+created_by: Sakelly
+
+[Term]
+id: IRO:0000036
+name: octenol
+def: "1-Octen-3-ol, octenol for short and also known as mushroom alcohol, is a chemical that attracts biting insects such as mosquitoes." []
+is_a: IRO:0000034 ! attractant
+created_by: Sakelly
+
+[Term]
+id: IRO:0000037
+name: hay or grass infusion
+def: "An attractant used for the collection of Culex mosquito species." []
+is_a: IRO:0000034 ! attractant
+created_by: Sakelly
+
+[Term]
+id: IRO:0000038
+name: Kdr V1016
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "V1016" EXACT []
+is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000039
+name: Kdr S989
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "S989" EXACT []
+is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000040
+name: Kdr I1011
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "I1011" EXACT []
+is_a: MIRO:10000225 ! para
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
