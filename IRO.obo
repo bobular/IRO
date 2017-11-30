@@ -207,8 +207,8 @@ relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
 [Term]
 id: IRO:0000020
-name: Gste2 114T
-def: "Gste2-114T has been associated with metabolic resistance to DDT" []
+name: Gste2 I114T
+def: "Gste2-I114T has been associated with metabolic resistance to DDT." []
 is_a: IRO:0000025 ! Glutathione S-transferase
 relationship: has_quality MIRO:00000086 ! GST structural change
 
@@ -353,6 +353,41 @@ name: Gste2 L119
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 comment: id:0000041
 is_a: IRO:0000025 ! Glutathione S-transferase
+
+[Term]
+id: IRO:0000042
+name: Kdr N1575
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "N1575" EXACT []
+is_a: MIRO:10000225 ! para
+created_by: lawson
+creation_date: 2017-11-30
+format-version: insecticide_resistance_ontology
+
+[Term]
+id: IRO:0000043
+name: Gste2 I114
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: IRO:0000025 ! Glutathione S-transferase
+created_by: lawson
+creation_date: 2017-11-30
+format-version: insecticide_resistance_ontology
+
+[Term]
+id: IRO:0000044
+name: AChE1 F290
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: MIRO:10000222 ! acetylcholinesterase
+created_by: lawson
+creation_date: 2017-11-30
+
+[Term]
+id: IRO:0000045
+name: AChE1 F331
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: MIRO:10000222 ! acetylcholinesterase
+created_by: lawson
+creation_date: 2017-11-30
 
 [Term]
 id: MIRO:00000000
