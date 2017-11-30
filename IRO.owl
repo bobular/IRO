@@ -875,10 +875,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Gste2-114T has been associated with metabolic resistance to DDT</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>IRO:0000020</oboInOwl:id>
-        <rdfs:label>Gste2 114T</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gste2-I114T has been associated with metabolic resistance to DDT.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000020</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gste2 I114T</rdfs:label>
     </owl:Class>
     
 
@@ -1154,10 +1154,66 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
-        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:comment>id:0000041</rdfs:comment>
         <rdfs:label xml:lang="en">Gste2 L119</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-30</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N1575</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBOFormatVersion>
+        <rdfs:label xml:lang="en">Kdr N1575</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-30</oboInOwl:creation_date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000043</oboInOwl:id>
+        <rdfs:label xml:lang="en">Gste2 I114</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-30</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000044</oboInOwl:id>
+        <rdfs:label xml:lang="en">AChE1 F290</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-30</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000045</oboInOwl:id>
+        <rdfs:label xml:lang="en">AChE1 F331</rdfs:label>
     </owl:Class>
     
 
