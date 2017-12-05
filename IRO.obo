@@ -346,6 +346,7 @@ name: Kdr I1011
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "I1011" EXACT []
 is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
 id: IRO:0000041
@@ -353,6 +354,7 @@ name: Gste2 L119
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 comment: id:0000041
 is_a: IRO:0000025 ! Glutathione S-transferase
+relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
 id: IRO:0000042
@@ -360,6 +362,7 @@ name: Kdr N1575
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "N1575" EXACT []
 is_a: MIRO:10000225 ! para
+relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
 format-version: insecticide_resistance_ontology
@@ -369,6 +372,7 @@ id: IRO:0000043
 name: Gste2 I114
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 is_a: IRO:0000025 ! Glutathione S-transferase
+relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
 format-version: insecticide_resistance_ontology
@@ -378,6 +382,7 @@ id: IRO:0000044
 name: AChE1 F290
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 is_a: MIRO:10000222 ! acetylcholinesterase
+relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
 
@@ -386,6 +391,7 @@ id: IRO:0000045
 name: AChE1 F331
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 is_a: MIRO:10000222 ! acetylcholinesterase
+relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
 
