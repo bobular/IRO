@@ -1266,6 +1266,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <obo:IAO_0000115>D1763Y in domain IV of house fly is found to be associated with pyrethroid resistance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>D1763Y</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000047</oboInOwl:id>
+        <rdfs:label xml:lang="en">Kdr D1763Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>D1763</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000048</oboInOwl:id>
+        <rdfs:label xml:lang="en">Kdr D1763</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
