@@ -1554,6 +1554,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000066</oboInOwl:id>
+        <rdfs:label xml:lang="en">live bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000067">
@@ -2240,6 +2257,42 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position for a particular protein sequence at which sequence variants have been defined. Nomenclature is (gene)(aa residue)(position) e.g. kdr L1014.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">sequence variant position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000066"/>
+        <obo:IAO_0000115>Bti is a biological or a naturally occurring bacterium found in soils. It is used as a biological larvicide.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000124</oboInOwl:id>
+        <rdfs:label xml:lang="en">Bacillus thuringiensis var. israelensis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000215"/>
+        <obo:IAO_0000115>A toxin of Bacillus thuringiensis var. israelensis</obo:IAO_0000115>
+        <obo:IAO_0000115>IRO:0000125</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Cry11Aa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000215"/>
+        <obo:IAO_0000115>A toxin of Bacillus thuringiensis var. israelensis</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000126</oboInOwl:id>
+        <rdfs:label xml:lang="en">Cry4Ba</rdfs:label>
     </owl:Class>
     
 
