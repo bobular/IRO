@@ -561,7 +561,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000116"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -580,7 +580,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000116"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -604,7 +604,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000118"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -666,7 +666,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -684,7 +684,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000118"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -703,7 +703,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000118"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -722,7 +722,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000118"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -741,7 +741,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000112"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -799,7 +799,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000115"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -842,7 +842,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000120"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -868,7 +868,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000113"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -922,7 +922,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -941,7 +941,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
-        <rdfs:label xml:lang="en">Glutathione S-transferase</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#influences"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">glutathione S-transferase</rdfs:label>
     </owl:Class>
     
 
@@ -1102,7 +1108,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000121"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1121,7 +1127,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1140,7 +1146,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000117"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1159,7 +1165,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1177,7 +1183,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000120"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1197,7 +1203,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000113"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1207,7 +1213,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-30</oboInOwl:creation_date>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000043</oboInOwl:id>
         <rdfs:label xml:lang="en">Gste2 I114</rdfs:label>
     </owl:Class>
@@ -1217,7 +1223,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000110"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1237,7 +1243,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000111"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1269,7 +1275,7 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000119"/>
         <obo:IAO_0000115>D1763Y in domain IV of house fly is found to be associated with pyrethroid resistance.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>D1763Y</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -1282,12 +1288,928 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000119"/>
         <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>D1763</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000048</oboInOwl:id>
         <rdfs:label xml:lang="en">Kdr D1763</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:label xml:lang="en">synergist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that inhibit AChE, causing hyperexcitation. AChE is the enzyme that terminates the action of the excitatory neurotransmitter acetylcholine at nerve synapses.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">acetylcholinesterase (AChE) inhibitor (IRAC:1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that block the GABA-activated chloride channel, causing hyperexcitation and convulsions. GABA is the major inhibitory neurotransmitter in insects.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lawson</oboInOwl:created_by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:2</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">GABA-gated chloride channel blocker (IRAC:2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that keep sodium channels open, causing hyperexcitation and, in some cases, nerve blocking. Sodium channels are involved in the propagation of action potentials along nerve axons.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:3</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">sodium channel modulator (IRAC:3)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that bind to the acetylcholine site on nAChRs, causing a range of symptoms from hyper-excitation to lethargy and paralysis. Acetylcholine is the major excitatory neurotransmitter in the insect central nervous system.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (NACHR) competitive modulator (IRAC:4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that allosterically activate nAChRs, causing hyperexcitation of the nervous system. Acetylcholine is the major excitatory neurotransmitter in the insect central nervous system.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:5</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (NACHR) allosteric modulator (IRAC:5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that allosterically activate glutamate-gated chloride channels (GluCls), causing paralysis. Glutamate is an important inhibitory neurotransmitter in insect.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:6</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">glutamate-gated chloride channel (GluCl) allosteric modulator (IRAC:6)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">IRAC:7B fenoxycarb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">miscellaneous non-specific inhibitor (IRAC:8)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">chordotonal organ TRPV channel modulator (IRAC:9)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mite growth inhibitor (IRAC:10)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">microbial disruptors of insect midgut membrane (IRAC:11)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">inhibitors of mitochondrial ATP synthase (IRAC:12)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">uncouplers of oxidative phosphorylation (IRAC:13)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (nAChR) channel blocker (IRAC:14)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">inhibitor of chitin biosynthesis type 0 (IRAC:15)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">inhibitor of chitin biosynthesis type 1 (IRAC:16)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">ecdysone receptor agonist (IRAC:18)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">octopamine receptor agonist (IRAC:19)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mitochondrial complex III electron transport inhibitor (IRAC:20)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mitochondrial complex I electron transport inhibitor (IRAC:21)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">voltage-dependent sodium channel blocker (IRAC:22)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">inhibitor of acetyl CoA carboxylase (IRAC:23)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mitochondrial complex IV electron transport inhibitor (IRAC:24)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mitochondrial complex II electron transport inhibitor (IRAC:25)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">ryanodine receptor modulator (IRAC:28)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">chordotonal organ modulator (IRAC:29)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">compounds of unknown MOA (IRAC:UN)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000054"/>
+        <rdfs:label xml:lang="en">spinosyns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">IRAC:7C pyriproxyfen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000070"/>
+        <rdfs:label xml:lang="en">IRAC:21A METI acaracides and insecticides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000070"/>
+        <rdfs:label xml:lang="en">IRAC:21B rotenone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000069"/>
+        <rdfs:label xml:lang="en">IRAC:20A hydramethylnon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000069"/>
+        <rdfs:label xml:lang="en">IRAC:20B acequinocyl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000069"/>
+        <rdfs:label xml:lang="en">IRAC:20C fluacrypyrim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000069"/>
+        <rdfs:label xml:lang="en">IRAC:20D bifenazate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000067"/>
+        <rdfs:label xml:lang="en">diacylhydrazines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000061"/>
+        <rdfs:label xml:lang="en">IRAC:12A diafenthiuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000061"/>
+        <rdfs:label xml:lang="en">IRAC:12C propargite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000061"/>
+        <rdfs:label xml:lang="en">IRAC:12D tetradifon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000058"/>
+        <rdfs:label xml:lang="en">IRAC:9B pyridine azomethine derivatives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000071"/>
+        <rdfs:label xml:lang="en">IRAC:22A oxadiazines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000071"/>
+        <rdfs:label xml:lang="en">IRAC:22B semicarbazones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000057"/>
+        <rdfs:label xml:lang="en">IRAC:8C fluorides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000057"/>
+        <rdfs:label xml:lang="en">IRAC:8B chloropicrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000075"/>
+        <rdfs:label xml:lang="en">diamides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000073"/>
+        <rdfs:label xml:lang="en">IRAC:24A phosphides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000073"/>
+        <rdfs:label xml:lang="en">IRAC:24B cyanides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">inhibitor of aconitase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/snap_Quality"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">insecticide mode of action target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000099"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">nerve and muscle target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000099"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">growth target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000099"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">respiration target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000099"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">midgut target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000099"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">unknown or non-specific target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000052"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:3B</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">DDT, methoxychlor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000053"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotine</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4B</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">nicotine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000053"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4C</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">sulfoximine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000053"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4D</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">butenolide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000053"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4E</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">mesoionic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">AChE1 F290</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">AChE1 F331</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">AChE1 G119</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Gste2 I114</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Gste2 L119</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Rdl A296</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr L1014</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr I1011</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr F1534</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr D1763</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr N1575</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr V1016</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">Kdr S989</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/snap_Quality"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position for a particular protein sequence at which sequence variants have been defined. Nomenclature is (gene)(aa residue)(position) e.g. kdr L1014.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">sequence variant position</rdfs:label>
     </owl:Class>
     
 
@@ -1313,7 +2235,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000115"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1459,7 +2381,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000121"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1483,7 +2405,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000121"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1507,7 +2429,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000117"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -1531,7 +2453,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000117"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -2861,7 +3783,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural changes of the insecticide target GABA receptor gene product, which decreases its response to the insecticide.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:00000115</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified GABA receptor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABA receptor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000115"/>
@@ -2971,7 +3893,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000112"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -2995,7 +3917,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000111"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -3019,7 +3941,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000110"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -3043,7 +3965,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000115"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -3085,7 +4007,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000116"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -3115,7 +4037,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_00000126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000116"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -3286,7 +4208,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000050"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -3787,13 +4709,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38576</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -3837,7 +4753,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000050"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -4888,6 +5804,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38873</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000086</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prothiofos</rdfs:label>
@@ -5185,10 +6102,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:eClassification</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000101</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moulting disruptor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moulting disruptor (IRAC:17)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000101"/>
@@ -5208,7 +6126,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -5217,6 +6135,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23457</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:2A</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000102</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclodiene organochlorine</rdfs:label>
@@ -5308,7 +6227,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:7-(2-chlorophenyl)-4-ethoxy-3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:O</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:82108</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorphoxin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000108</oboInOwl:id>
@@ -5326,7 +6245,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -5334,16 +6253,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:2B</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000109</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fipronil / phenylpyrazole</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenylpyrazole (fiproles)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000109"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PT:PT</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -5395,7 +6309,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -5404,6 +6318,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:3A</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000112</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid</rdfs:label>
@@ -6090,9 +7005,8 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39392</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kadethrin</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000148</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rU 15525</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kadethrin</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000148"/>
@@ -6239,7 +7153,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000112"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6265,7 +7179,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6274,6 +7188,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16130</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:3B</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000157</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDT</rdfs:label>
@@ -6290,7 +7205,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6299,6 +7214,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:6842</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:3B</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000158</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methoxychlor</rdfs:label>
@@ -6343,7 +7259,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000102"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:34696</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:(1R</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000160</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dieldrin</rdfs:label>
@@ -6354,7 +7269,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6363,6 +7278,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39182</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4A</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000161</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonicotinoid</rdfs:label>
@@ -6512,7 +7428,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000106"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6555,7 +7471,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000063"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6580,7 +7496,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000063"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6630,7 +7546,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6680,7 +7596,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6769,32 +7685,20 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that when applied in the pre-metamorphic instar disrupt and prevent metamorphosis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24942</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:eClassification</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:7</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000181</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile hormone mimic</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile hormone mimic (IRAC:7)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PT:PT</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:eClassification</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.irac-online.org/eClassification/</rdfs:label>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/MIRO_10000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6823,7 +7727,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000183</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile hormone analogue</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:7A juvenile hormone analogue</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000183"/>
@@ -6894,7 +7798,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6918,7 +7822,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5009</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -6937,7 +7841,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -6961,7 +7865,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000079"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39260</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -7006,7 +7910,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7030,7 +7934,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7073,7 +7977,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7098,7 +8002,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7123,7 +8027,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7147,7 +8051,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000093"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7197,7 +8101,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7221,7 +8125,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000093"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7246,7 +8150,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7270,7 +8174,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7295,7 +8199,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7319,7 +8223,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000076"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7344,7 +8248,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000059"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7375,7 +8279,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7518,7 +8422,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000060"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7672,6 +8576,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#influences"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ACHE gene or a one to one ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantelis</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-29T10:49:13Z</oboInOwl:creation_date>
@@ -7737,15 +8647,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#influences"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel in a cell membrane whose opening is governed by the membrane potential.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantelis</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-29T10:59:29Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vgsc</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kdr</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kdr gene</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voltage gated sodium channel</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">para</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000225</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">para</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voltage-gated sodium channel</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
@@ -7759,7 +8675,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000087"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7806,7 +8722,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7817,7 +8733,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39292</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000228</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organotin miticide</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:12B organotin miticide</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000228"/>
@@ -7888,7 +8804,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000088"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7913,7 +8829,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000089"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7938,7 +8854,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -7988,7 +8904,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000237">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000062"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8013,7 +8929,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000062"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8065,7 +8981,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8299,7 +9215,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000254">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8500,7 +9416,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000266 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000266">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000068"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8552,7 +9468,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000269 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8577,7 +9493,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8602,7 +9518,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000273">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000084"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8652,7 +9568,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8677,7 +9593,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8702,7 +9618,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000277">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8727,7 +9643,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8752,7 +9668,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000279">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8777,7 +9693,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8802,7 +9718,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000081"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8853,7 +9769,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000091"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -8903,7 +9819,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000285">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000072"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9010,7 +9926,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000290">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000096"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9035,7 +9951,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000097"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9060,7 +9976,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000096"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9110,7 +10026,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000085"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9159,7 +10075,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000298 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000298">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000098"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9210,7 +10126,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000307 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000307">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9235,7 +10151,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9260,7 +10176,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000312">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9285,7 +10201,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
@@ -9310,7 +10226,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_10000316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_10000316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_role"/>
