@@ -611,12 +611,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000131"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permethrin-resistance mutation (a phenylalanine to cysteine change) in domain IIIS6 of the Aedes aegypti voltage-gated sodium channel gene.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000004</oboInOwl:id>
@@ -1276,6 +1270,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>D1763Y in domain IV of house fly is found to be associated with pyrethroid resistance.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>D1763Y</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -1289,7 +1289,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skelly</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-10</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>D1763</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000048</oboInOwl:id>
@@ -1338,7 +1346,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that block the GABA-activated chloride channel, causing hyperexcitation and convulsions. GABA is the major inhibitory neurotransmitter in insects.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lawson</oboInOwl:created_by>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:2</oboInOwl:hasDbXref>
@@ -1383,7 +1390,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:4</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (NACHR) competitive modulator (IRAC:4)</rdfs:label>
+        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)</rdfs:label>
     </owl:Class>
     
 
@@ -1400,9 +1407,10 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that allosterically activate nAChRs, causing hyperexcitation of the nervous system. Acetylcholine is the major excitatory neurotransmitter in the insect central nervous system.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:5</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (NACHR) allosteric modulator (IRAC:5)</rdfs:label>
+        <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (nACHR) allosteric modulator (IRAC:5)</rdfs:label>
     </owl:Class>
     
 
@@ -1419,6 +1427,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that allosterically activate glutamate-gated chloride channels (GluCls), causing paralysis. Glutamate is an important inhibitory neurotransmitter in insect.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:6</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">glutamate-gated chloride channel (GluCl) allosteric modulator (IRAC:6)</rdfs:label>
@@ -1442,6 +1451,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">miscellaneous non-specific inhibitor (IRAC:8)</rdfs:label>
     </owl:Class>
@@ -1453,6 +1463,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">chordotonal organ TRPV channel modulator (IRAC:9)</rdfs:label>
     </owl:Class>
@@ -1464,6 +1475,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">mite growth inhibitor (IRAC:10)</rdfs:label>
     </owl:Class>
@@ -1475,6 +1487,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">microbial disruptors of insect midgut membrane (IRAC:11)</rdfs:label>
     </owl:Class>
@@ -1486,6 +1499,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">inhibitors of mitochondrial ATP synthase (IRAC:12)</rdfs:label>
     </owl:Class>
@@ -1497,6 +1511,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">uncouplers of oxidative phosphorylation (IRAC:13)</rdfs:label>
     </owl:Class>
@@ -1508,6 +1523,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">nicotinic acetylcholine receptor (nAChR) channel blocker (IRAC:14)</rdfs:label>
     </owl:Class>
@@ -1519,6 +1535,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">inhibitor of chitin biosynthesis type 0 (IRAC:15)</rdfs:label>
     </owl:Class>
@@ -1530,6 +1547,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">inhibitor of chitin biosynthesis type 1 (IRAC:16)</rdfs:label>
     </owl:Class>
@@ -1541,6 +1559,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">ecdysone receptor agonist (IRAC:18)</rdfs:label>
     </owl:Class>
@@ -1552,6 +1571,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">octopamine receptor agonist (IRAC:19)</rdfs:label>
     </owl:Class>
@@ -1563,6 +1583,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">mitochondrial complex III electron transport inhibitor (IRAC:20)</rdfs:label>
     </owl:Class>
@@ -1574,6 +1595,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">mitochondrial complex I electron transport inhibitor (IRAC:21)</rdfs:label>
     </owl:Class>
@@ -1585,6 +1607,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">voltage-dependent sodium channel blocker (IRAC:22)</rdfs:label>
     </owl:Class>
@@ -1596,6 +1619,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">inhibitor of acetyl CoA carboxylase (IRAC:23)</rdfs:label>
     </owl:Class>
@@ -1607,6 +1631,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">mitochondrial complex IV electron transport inhibitor (IRAC:24)</rdfs:label>
     </owl:Class>
@@ -1618,6 +1643,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">mitochondrial complex II electron transport inhibitor (IRAC:25)</rdfs:label>
     </owl:Class>
@@ -1629,6 +1655,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">ryanodine receptor modulator (IRAC:28)</rdfs:label>
     </owl:Class>
@@ -1640,6 +1667,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">chordotonal organ modulator (IRAC:29)</rdfs:label>
     </owl:Class>
@@ -1651,6 +1679,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">compounds of unknown MOA (IRAC:UN)</rdfs:label>
     </owl:Class>
@@ -1844,6 +1873,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000239"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">inhibitor of aconitase</rdfs:label>
     </owl:Class>
@@ -6103,6 +6133,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical substance which is being used as insecticide.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:eClassification</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:10000101</oboInOwl:id>
@@ -7686,6 +7717,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that when applied in the pre-metamorphic instar disrupt and prevent metamorphosis.</obo:IAO_0000115>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-12</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24942</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:7</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
