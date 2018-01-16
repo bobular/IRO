@@ -75,7 +75,7 @@ created_by: maccallr
 id: IRO:0000002
 name: Kdr L1014
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000116 ! Kdr L1014
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: maccallr
 
@@ -83,7 +83,7 @@ created_by: maccallr
 id: IRO:0000003
 name: Kdr L1014C
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-C) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide. L1014C (TGT) leads to a Leucine to Cysteine substitution." []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000116 ! Kdr L1014
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
@@ -91,9 +91,8 @@ relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 id: IRO:0000004
 name: Kdr F1534C
 def: "A permethrin-resistance mutation (a phenylalanine to cysteine change) in domain IIIS6 of the Aedes aegypti voltage-gated sodium channel gene." []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000118 ! Kdr F1534
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
-relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
 [Term]
 id: IRO:0000005
@@ -119,7 +118,7 @@ is_a: MIRO:20000096 ! monitoring known mutations
 id: IRO:0000008
 name: Kdr S989P
 def: "A mutation in the AaNaV gene that confer resistance to the pyrethroids in Aedes aegypti" []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000122 ! Kdr S989
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
@@ -127,7 +126,7 @@ id: IRO:0000009
 name: Kdr F1534
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "F1534" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000118 ! Kdr F1534
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -135,7 +134,7 @@ id: IRO:0000010
 name: Kdr F1534S
 def: "Resistance-associated point mutation of amino acid at position 1534 (phe-ser) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." []
 synonym: "F1534S" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000118 ! Kdr F1534
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
@@ -143,7 +142,7 @@ id: IRO:0000011
 name: Kdr F1534L
 def: "Resistance-associated point mutation of amino acid at position 1534 (phe-leu) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." []
 synonym: "F1534L" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000118 ! Kdr F1534
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
@@ -152,7 +151,7 @@ name: AChE1 G119
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "G119" RELATED []
 synonym: "G119S SS" RELATED []
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000112 ! AChE1 G119
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -179,7 +178,7 @@ created_by: lawson
 id: IRO:0000016
 name: Rdl A296
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: MIRO:00000115 ! modified GABA receptor
+is_a: IRO:0000115 ! Rdl A296
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 
@@ -201,7 +200,7 @@ name: Kdr N1575Y
 def: "Mutation in the voltage gated sodium channel gene that confers resistance to DDT/pyrethroids. Vgsc-1575Y enhances the action of L1014F mutation." []
 synonym: "N1575Y" EXACT []
 synonym: "Vgsc-1575Y" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000120 ! Kdr N1575
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
@@ -209,7 +208,7 @@ relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 id: IRO:0000020
 name: Gste2 I114T
 def: "Gste2-I114T has been associated with metabolic resistance to DDT." []
-is_a: IRO:0000025 ! Glutathione S-transferase
+is_a: IRO:0000113 ! Gste2 I114
 relationship: has_quality MIRO:00000086 ! GST structural change
 
 [Term]
@@ -234,13 +233,14 @@ is_a: MIRO:30000022 ! collection of larvae
 id: IRO:0000024
 name: Gste2 L119F
 def: "Gste2 L119F has been associated with metabolic resistance to DDT." []
-is_a: IRO:0000025 ! Glutathione S-transferase
+is_a: IRO:0000114 ! Gste2 L119
 relationship: has_quality MIRO:00000086 ! GST structural change
 
 [Term]
 id: IRO:0000025
-name: Glutathione S-transferase
+name: glutathione S-transferase
 is_a: MIRO:10000220 ! protein
+relationship: influences MIRO:00000014 ! Glutathione S-transferase resistance
 
 [Term]
 id: IRO:0000026
@@ -329,7 +329,7 @@ id: IRO:0000038
 name: Kdr V1016
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "V1016" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000121 ! Kdr V1016
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -337,7 +337,7 @@ id: IRO:0000039
 name: Kdr S989
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "S989" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000122 ! Kdr S989
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -345,7 +345,7 @@ id: IRO:0000040
 name: Kdr I1011
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "I1011" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000117 ! Kdr I1011
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -353,7 +353,7 @@ id: IRO:0000041
 name: Gste2 L119
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 comment: id:0000041
-is_a: IRO:0000025 ! Glutathione S-transferase
+is_a: IRO:0000114 ! Gste2 L119
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
@@ -361,7 +361,7 @@ id: IRO:0000042
 name: Kdr N1575
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 synonym: "N1575" EXACT []
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000120 ! Kdr N1575
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
@@ -371,17 +371,16 @@ format-version: insecticide_resistance_ontology
 id: IRO:0000043
 name: Gste2 I114
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: IRO:0000025 ! Glutathione S-transferase
+is_a: IRO:0000113 ! Gste2 I114
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
-format-version: insecticide_resistance_ontology
 
 [Term]
 id: IRO:0000044
 name: AChE1 F290
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000110 ! AChE1 F290
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
@@ -390,10 +389,551 @@ creation_date: 2017-11-30
 id: IRO:0000045
 name: AChE1 F331
 def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000111 ! AChE1 F331
 relationship: has_quality IRO:0000001 ! wild type allele information
 created_by: lawson
 creation_date: 2017-11-30
+
+[Term]
+id: IRO:0000046
+name: AGO trap
+def: "Autocidal gravid ovitrap" []
+is_a: MIRO:30000016 ! ovitrap catch
+
+[Term]
+id: IRO:0000047
+name: Kdr D1763Y
+def: "D1763Y in domain IV of house fly is found to be associated with pyrethroid resistance." []
+synonym: "D1763Y" EXACT []
+is_a: IRO:0000119 ! Kdr D1763
+relationship: has_quality MIRO:00000113 ! sodium channel structural change
+
+[Term]
+id: IRO:0000048
+name: Kdr D1763
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+synonym: "D1763" EXACT []
+is_a: IRO:0000119 ! Kdr D1763
+relationship: has_quality IRO:0000001 ! wild type allele information
+created_by: skelly
+creation_date: 2018-01-10
+
+[Term]
+id: IRO:0000049
+name: synergist
+is_a: MIRO:10000216 ! chemical compound
+
+[Term]
+id: IRO:0000050
+name: acetylcholinesterase (AChE) inhibitor (IRAC:1)
+def: "Compounds that inhibit AChE, causing hyperexcitation. AChE is the enzyme that terminates the action of the excitatory neurotransmitter acetylcholine at nerve synapses." []
+xref: IRAC:1
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000051
+name: GABA-gated chloride channel blocker (IRAC:2)
+def: "Compounds that block the GABA-activated chloride channel, causing hyperexcitation and convulsions. GABA is the major inhibitory neurotransmitter in insects." []
+xref: IRAC:2
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000052
+name: sodium channel modulator (IRAC:3)
+def: "Compounds that keep sodium channels open, causing hyperexcitation and, in some cases, nerve blocking. Sodium channels are involved in the propagation of action potentials along nerve axons." []
+xref: IRAC:3
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000053
+name: nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
+def: "Compounds that bind to the acetylcholine site on nAChRs, causing a range of symptoms from hyper-excitation to lethargy and paralysis. Acetylcholine is the major excitatory neurotransmitter in the insect central nervous system." []
+xref: IRAC:4
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000054
+name: nicotinic acetylcholine receptor (nACHR) allosteric modulator (IRAC:5)
+def: "Compounds that allosterically activate nAChRs, causing hyperexcitation of the nervous system. Acetylcholine is the major excitatory neurotransmitter in the insect central nervous system." []
+xref: IRAC:5
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000055
+name: glutamate-gated chloride channel (GluCl) allosteric modulator (IRAC:6)
+def: "Compounds that allosterically activate glutamate-gated chloride channels (GluCls), causing paralysis. Glutamate is an important inhibitory neurotransmitter in insect." []
+xref: IRAC:6
+is_a: MIRO:10000239 ! insecticidal substance
+relationship: has_quality IRO:0000100 ! nerve and muscle target
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000056
+name: IRAC:7B fenoxycarb
+is_a: MIRO:10000181 ! juvenile hormone mimic (IRAC:7)
+created_by: lawson
+
+[Term]
+id: IRO:0000057
+name: miscellaneous non-specific inhibitor (IRAC:8)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000058
+name: chordotonal organ TRPV channel modulator (IRAC:9)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000059
+name: mite growth inhibitor (IRAC:10)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000060
+name: microbial disruptors of insect midgut membrane (IRAC:11)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000061
+name: inhibitors of mitochondrial ATP synthase (IRAC:12)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000062
+name: uncouplers of oxidative phosphorylation (IRAC:13)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000063
+name: nicotinic acetylcholine receptor (nAChR) channel blocker (IRAC:14)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000064
+name: inhibitor of chitin biosynthesis type 0 (IRAC:15)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000065
+name: inhibitor of chitin biosynthesis type 1 (IRAC:16)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000066
+name: live bacteria
+is_a: MIRO:30000000 ! biological material
+relationship: has_quality MIRO:10000239 ! insecticidal substance
+
+[Term]
+id: IRO:0000067
+name: ecdysone receptor agonist (IRAC:18)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000068
+name: octopamine receptor agonist (IRAC:19)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000069
+name: mitochondrial complex III electron transport inhibitor (IRAC:20)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000070
+name: mitochondrial complex I electron transport inhibitor (IRAC:21)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000071
+name: voltage-dependent sodium channel blocker (IRAC:22)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000072
+name: inhibitor of acetyl CoA carboxylase (IRAC:23)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000073
+name: mitochondrial complex IV electron transport inhibitor (IRAC:24)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000074
+name: mitochondrial complex II electron transport inhibitor (IRAC:25)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000075
+name: ryanodine receptor modulator (IRAC:28)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000076
+name: chordotonal organ modulator (IRAC:29)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000077
+name: compounds of unknown MOA (IRAC:UN)
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000078
+name: spinosyns
+is_a: IRO:0000054 ! nicotinic acetylcholine receptor (nACHR) allosteric modulator (IRAC:5)
+
+[Term]
+id: IRO:0000079
+name: IRAC:7C pyriproxyfen
+is_a: MIRO:10000181 ! juvenile hormone mimic (IRAC:7)
+created_by: lawson
+
+[Term]
+id: IRO:0000080
+name: IRAC:21A METI acaracides and insecticides
+is_a: IRO:0000070 ! mitochondrial complex I electron transport inhibitor (IRAC:21)
+
+[Term]
+id: IRO:0000081
+name: IRAC:21B rotenone
+is_a: IRO:0000070 ! mitochondrial complex I electron transport inhibitor (IRAC:21)
+
+[Term]
+id: IRO:0000082
+name: IRAC:20A hydramethylnon
+is_a: IRO:0000069 ! mitochondrial complex III electron transport inhibitor (IRAC:20)
+
+[Term]
+id: IRO:0000083
+name: IRAC:20B acequinocyl
+is_a: IRO:0000069 ! mitochondrial complex III electron transport inhibitor (IRAC:20)
+
+[Term]
+id: IRO:0000084
+name: IRAC:20C fluacrypyrim
+is_a: IRO:0000069 ! mitochondrial complex III electron transport inhibitor (IRAC:20)
+
+[Term]
+id: IRO:0000085
+name: IRAC:20D bifenazate
+is_a: IRO:0000069 ! mitochondrial complex III electron transport inhibitor (IRAC:20)
+
+[Term]
+id: IRO:0000086
+name: diacylhydrazines
+is_a: IRO:0000067 ! ecdysone receptor agonist (IRAC:18)
+
+[Term]
+id: IRO:0000087
+name: IRAC:12A diafenthiuron
+is_a: IRO:0000061 ! inhibitors of mitochondrial ATP synthase (IRAC:12)
+
+[Term]
+id: IRO:0000088
+name: IRAC:12C propargite
+is_a: IRO:0000061 ! inhibitors of mitochondrial ATP synthase (IRAC:12)
+
+[Term]
+id: IRO:0000089
+name: IRAC:12D tetradifon
+is_a: IRO:0000061 ! inhibitors of mitochondrial ATP synthase (IRAC:12)
+
+[Term]
+id: IRO:0000090
+name: IRAC:9B pyridine azomethine derivatives
+is_a: IRO:0000058 ! chordotonal organ TRPV channel modulator (IRAC:9)
+
+[Term]
+id: IRO:0000091
+name: IRAC:22A oxadiazines
+is_a: IRO:0000071 ! voltage-dependent sodium channel blocker (IRAC:22)
+
+[Term]
+id: IRO:0000092
+name: IRAC:22B semicarbazones
+is_a: IRO:0000071 ! voltage-dependent sodium channel blocker (IRAC:22)
+
+[Term]
+id: IRO:0000093
+name: IRAC:8C fluorides
+is_a: IRO:0000057 ! miscellaneous non-specific inhibitor (IRAC:8)
+
+[Term]
+id: IRO:0000094
+name: IRAC:8B chloropicrin
+is_a: IRO:0000057 ! miscellaneous non-specific inhibitor (IRAC:8)
+
+[Term]
+id: IRO:0000095
+name: diamides
+is_a: IRO:0000075 ! ryanodine receptor modulator (IRAC:28)
+
+[Term]
+id: IRO:0000096
+name: IRAC:24A phosphides
+is_a: IRO:0000073 ! mitochondrial complex IV electron transport inhibitor (IRAC:24)
+
+[Term]
+id: IRO:0000097
+name: IRAC:24B cyanides
+is_a: IRO:0000073 ! mitochondrial complex IV electron transport inhibitor (IRAC:24)
+
+[Term]
+id: IRO:0000098
+name: inhibitor of aconitase
+is_a: MIRO:10000239 ! insecticidal substance
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000099
+name: insecticide mode of action target
+is_a: snap:Quality ! quality
+created_by: lawson
+
+[Term]
+id: IRO:0000100
+name: nerve and muscle target
+is_a: IRO:0000099 ! insecticide mode of action target
+created_by: lawson
+
+[Term]
+id: IRO:0000101
+name: growth target
+is_a: IRO:0000099 ! insecticide mode of action target
+created_by: lawson
+
+[Term]
+id: IRO:0000102
+name: respiration target
+is_a: IRO:0000099 ! insecticide mode of action target
+created_by: lawson
+
+[Term]
+id: IRO:0000103
+name: midgut target
+is_a: IRO:0000099 ! insecticide mode of action target
+created_by: lawson
+
+[Term]
+id: IRO:0000104
+name: unknown or non-specific target
+is_a: IRO:0000099 ! insecticide mode of action target
+created_by: lawson
+
+[Term]
+id: IRO:0000105
+name: DDT, methoxychlor
+xref: IRAC:3B
+is_a: IRO:0000052 ! sodium channel modulator (IRAC:3)
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000106
+name: nicotine
+def: "nicotine" []
+xref: IRAC:4B
+is_a: IRO:0000053 ! nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000107
+name: sulfoximine
+xref: IRAC:4C
+is_a: IRO:0000053 ! nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000108
+name: butenolide
+xref: IRAC:4D
+is_a: IRO:0000053 ! nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000109
+name: mesoionic
+xref: IRAC:4E
+is_a: IRO:0000053 ! nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
+created_by: lawson
+creation_date: 2018-01-12
+
+[Term]
+id: IRO:0000110
+name: AChE1 F290
+is_a: MIRO:10000222 ! acetylcholinesterase
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000111
+name: AChE1 F331
+is_a: MIRO:10000222 ! acetylcholinesterase
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000112
+name: AChE1 G119
+is_a: MIRO:10000222 ! acetylcholinesterase
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000113
+name: Gste2 I114
+is_a: IRO:0000025 ! glutathione S-transferase
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000114
+name: Gste2 L119
+is_a: IRO:0000025 ! glutathione S-transferase
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000115
+name: Rdl A296
+is_a: MIRO:00000115 ! GABA receptor
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000116
+name: Kdr L1014
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000117
+name: Kdr I1011
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000118
+name: Kdr F1534
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000119
+name: Kdr D1763
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000120
+name: Kdr N1575
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000121
+name: Kdr V1016
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000122
+name: Kdr S989
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
+created_by: lawson
+
+[Term]
+id: IRO:0000123
+name: sequence variant position
+def: "Position for a particular protein sequence at which sequence variants have been defined. Nomenclature is (gene)(aa residue)(position) e.g. kdr L1014." []
+is_a: snap:Quality ! quality
+
+[Term]
+id: IRO:0000124
+name: Bacillus thuringiensis var. israelensis
+def: "Bti is a biological or a naturally occurring bacterium found in soils. It is used as a biological larvicide." []
+is_a: IRO:0000066 ! live bacteria
+
+[Term]
+id: IRO:0000125
+name: Cry11Aa
+def: "A toxin of Bacillus thuringiensis var. israelensis" []
+is_a: MIRO:10000215 ! Bacillus thurigiensis var. israelensis toxin
+
+[Term]
+id: IRO:0000126
+name: Cry4Ba
+def: "A toxin of Bacillus thuringiensis var. israelensis" []
+is_a: MIRO:10000215 ! Bacillus thurigiensis var. israelensis toxin
 
 [Term]
 id: MIRO:00000000
@@ -405,7 +945,7 @@ is_a: snap:Disposition ! disposition
 id: MIRO:00000001
 name: Rdl A296S
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
-is_a: MIRO:00000115 ! modified GABA receptor
+is_a: IRO:0000115 ! Rdl A296
 relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
@@ -452,28 +992,28 @@ is_a: MIRO:00000005 ! behavioural resistance
 id: MIRO:00000008
 name: Kdr V1016G
 def: "Resistance-associated point mutation of amino acid at position 1016 (V-G) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000121 ! Kdr V1016
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000009
 name: Kdr V1016I
 def: "Resistance-associated point mutation of amino acid at position 1016 (V-I) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000121 ! Kdr V1016
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000010
 name: Kdr I1011M
 def: "Resistance-associated point mutation of amino acid at position 1011 (I-M) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000117 ! Kdr I1011
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
 id: MIRO:00000011
 name: Kdr I1011V
 def: "Resistance-associated point mutation of amino acid at position 1011 (I-V) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [KL:KL]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000117 ! Kdr I1011
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 
 [Term]
@@ -930,7 +1470,7 @@ relationship: influences MIRO:00000127 ! AChE mediated resistance
 
 [Term]
 id: MIRO:00000115
-name: modified GABA receptor
+name: GABA receptor
 def: "Structural changes of the insecticide target GABA receptor gene product, which decreases its response to the insecticide." [KL:KL]
 is_a: MIRO:10000220 ! protein
 relationship: influences MIRO:00000128 ! GABA receptor mediated resistance
@@ -967,28 +1507,28 @@ relationship: influences MIRO:00000127 ! AChE mediated resistance
 id: MIRO:00000120
 name: AChE1 G119S
 def: "Resistance-associated point mutation of amino acid at position 119 in the insecticide target acetylcholinesterase 1 gene product; this structural change leads to decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000112 ! AChE1 G119
 relationship: has_quality MIRO:00000114 ! AChE structural change
 
 [Term]
 id: MIRO:00000121
 name: AChE1 F331W
 def: "Resistance-associated point mutation of amino acid at position 331 in the insecticide target acetylcholinesterase 1 gene product; this structural change leads to decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000111 ! AChE1 F331
 relationship: has_quality MIRO:00000114 ! AChE structural change
 
 [Term]
 id: MIRO:00000122
 name: AChE1 F290V
 def: "Resistance-associated point mutation of amino acid at position 290 in the insecticide target acetylcholinesterase 1 gene product; this structural change leads to decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000222 ! acetylcholinesterase
+is_a: IRO:0000110 ! AChE1 F290
 relationship: has_quality MIRO:00000114 ! AChE structural change
 
 [Term]
 id: MIRO:00000123
 name: Rdl A296G
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
-is_a: MIRO:00000115 ! modified GABA receptor
+is_a: IRO:0000115 ! Rdl A296
 relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
@@ -1002,7 +1542,7 @@ relationship: has_quality MIRO:00000116 ! midgut receptor structural change
 id: MIRO:00000125
 name: Kdr L1014S
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-S) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000116 ! Kdr L1014
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
@@ -1010,7 +1550,7 @@ relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 id: MIRO:00000126
 name: Kdr L1014F
 def: "Resistance-associated point mutation of amino acid at position 1014 (L-F) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." [PMID:15242706]
-is_a: MIRO:10000225 ! para
+is_a: IRO:0000116 ! Kdr L1014
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 relationship: has_quality MIRO:00000131 ! sodium channel mediated resistance
 
@@ -1064,7 +1604,7 @@ id: MIRO:10000002
 name: carbamate
 def: "A chemical substance which is being used as insecticide." []
 xref: IRAC:1A
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000050 ! acetylcholinesterase (AChE) inhibitor (IRAC:1)
 relationship: has_role MIRO:10000000 ! acetylcholine esterase inhibitor
 
 [Term]
@@ -1254,8 +1794,7 @@ id: MIRO:10000029
 name: triazamate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38576
-is_a: MIRO:10000239 ! insecticidal substance
-relationship: has_role MIRO:10000000 ! acetylcholine esterase inhibitor
+is_a: MIRO:10000002 ! carbamate
 
 [Term]
 id: MIRO:10000030
@@ -1270,7 +1809,7 @@ name: organophosphate
 def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:25708
 xref: IRAC:1B
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000050 ! acetylcholinesterase (AChE) inhibitor (IRAC:1)
 relationship: has_role MIRO:10000000 ! acetylcholine esterase inhibitor
 
 [Term]
@@ -1658,6 +2197,7 @@ is_a: MIRO:10000031 ! organophosphate
 id: MIRO:10000086
 name: prothiofos
 def: "A chemical substance which is being used as insecticide." [PT:PT]
+xref: CHEBI:38873
 is_a: MIRO:10000031 ! organophosphate
 
 [Term]
@@ -1761,18 +2301,21 @@ is_a: snap:Role ! role
 
 [Term]
 id: MIRO:10000101
-name: moulting disruptor
+name: moulting disruptor (IRAC:17)
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: IRAC:eClassification "http://www.irac-online.org/eClassification/"
 is_a: MIRO:10000239 ! insecticidal substance
 relationship: has_role MIRO:10000030 ! growth inhibitor
+created_by: lawson
+creation_date: 2018-01-12
 
 [Term]
 id: MIRO:10000102
 name: cyclodiene organochlorine
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:23457
-is_a: MIRO:10000239 ! insecticidal substance
+xref: IRAC:2A
+is_a: IRO:0000051 ! GABA-gated chloride channel blocker (IRAC:2)
 relationship: has_role MIRO:10000100 ! GABA-gated chloride channel antagonist
 
 [Term]
@@ -1817,14 +2360,15 @@ name: chlorphoxim
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "chlorphoxin" EXACT []
 xref: CAS:7-(2-chlorophenyl)-4-ethoxy-3
-xref: IUPAC:O
+xref: CHEBI:82108
 is_a: MIRO:10000031 ! organophosphate
 
 [Term]
 id: MIRO:10000109
-name: fipronil / phenylpyrazole
-def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000239 ! insecticidal substance
+name: phenylpyrazole (fiproles)
+def: "A chemical substance which is being used as insecticide." []
+xref: IRAC:2B
+is_a: IRO:0000051 ! GABA-gated chloride channel blocker (IRAC:2)
 relationship: has_role MIRO:10000100 ! GABA-gated chloride channel antagonist
 
 [Term]
@@ -1832,7 +2376,7 @@ id: MIRO:10000110
 name: fipronil
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:5063
-is_a: MIRO:10000109 ! fipronil / phenylpyrazole
+is_a: MIRO:10000109 ! phenylpyrazole (fiproles)
 
 [Term]
 id: MIRO:10000111
@@ -1847,7 +2391,8 @@ id: MIRO:10000112
 name: pyrethroid
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:26413
-is_a: MIRO:10000239 ! insecticidal substance
+xref: IRAC:3A
+is_a: IRO:0000052 ! sodium channel modulator (IRAC:3)
 relationship: has_role MIRO:10000111 ! sodium channel modulator
 
 [Term]
@@ -2098,9 +2643,8 @@ is_a: MIRO:10000112 ! pyrethroid
 
 [Term]
 id: MIRO:10000148
-name: rU 15525
+name: kadethrin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-synonym: "kadethrin" RELATED []
 xref: CHEBI:39392
 is_a: MIRO:10000112 ! pyrethroid
 
@@ -2159,7 +2703,7 @@ name: pyrethrin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "pyrethrum" EXACT []
 xref: CHEBI:27815
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: MIRO:10000112 ! pyrethroid
 relationship: has_role MIRO:10000111 ! sodium channel modulator
 
 [Term]
@@ -2167,7 +2711,8 @@ id: MIRO:10000157
 name: DDT
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:16130
-is_a: MIRO:10000239 ! insecticidal substance
+xref: IRAC:3B
+is_a: IRO:0000105 ! DDT, methoxychlor
 relationship: has_role MIRO:10000111 ! sodium channel modulator
 
 [Term]
@@ -2175,7 +2720,8 @@ id: MIRO:10000158
 name: methoxychlor
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:6842
-is_a: MIRO:10000239 ! insecticidal substance
+xref: IRAC:3B
+is_a: IRO:0000105 ! DDT, methoxychlor
 relationship: has_role MIRO:10000111 ! sodium channel modulator
 
 [Term]
@@ -2190,7 +2736,6 @@ id: MIRO:10000160
 name: dieldrin
 def: "A chemical substance which is being used as insecticide." []
 xref: CHEBI:34696
-xref: IUPAC:(1R
 is_a: MIRO:10000102 ! cyclodiene organochlorine
 
 [Term]
@@ -2198,7 +2743,8 @@ id: MIRO:10000161
 name: neonicotinoid
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39182
-is_a: MIRO:10000239 ! insecticidal substance
+xref: IRAC:4A
+is_a: IRO:0000053 ! nicotinic acetylcholine receptor (nACHR) competitive modulator (IRAC:4)
 relationship: has_role MIRO:10000159 ! nicotinic acetylcholine receptor agontist/antagonist
 
 [Term]
@@ -2255,7 +2801,7 @@ id: MIRO:10000170
 name: nicotine
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:18723
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000106 ! nicotine
 relationship: has_role MIRO:10000159 ! nicotinic acetylcholine receptor agontist/antagonist
 
 [Term]
@@ -2269,7 +2815,7 @@ id: MIRO:10000172
 name: bensultap
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39188
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000063 ! nicotinic acetylcholine receptor (nAChR) channel blocker (IRAC:14)
 relationship: has_role MIRO:10000159 ! nicotinic acetylcholine receptor agontist/antagonist
 
 [Term]
@@ -2277,7 +2823,7 @@ id: MIRO:10000173
 name: cartap
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:3436
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000063 ! nicotinic acetylcholine receptor (nAChR) channel blocker (IRAC:14)
 relationship: has_role MIRO:10000159 ! nicotinic acetylcholine receptor agontist/antagonist
 
 [Term]
@@ -2292,7 +2838,7 @@ id: MIRO:10000175
 name: spinosad
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39211
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000078 ! spinosyns
 relationship: has_role MIRO:10000174 ! allosteric agonist of nicotinic acetylcholine receptor
 
 [Term]
@@ -2307,7 +2853,7 @@ id: MIRO:10000177
 name: avermectin and milbemycin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39213
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000055 ! glutamate-gated chloride channel (GluCl) allosteric modulator (IRAC:6)
 relationship: has_role MIRO:10000176 ! chloride channel activator
 
 [Term]
@@ -2333,53 +2879,54 @@ is_a: MIRO:10000177 ! avermectin and milbemycin
 
 [Term]
 id: MIRO:10000181
-name: juvenile hormone mimic
-def: "A chemical substance which is being used as insecticide." [PT:PT]
+name: juvenile hormone mimic (IRAC:7)
+def: "Compounds that when applied in the pre-metamorphic instar disrupt and prevent metamorphosis." []
 xref: CHEBI:24942
-xref: IRAC:eClassification "http://www.irac-online.org/eClassification/"
+xref: IRAC:7
 is_a: MIRO:10000239 ! insecticidal substance
 relationship: has_role MIRO:10000030 ! growth inhibitor
+creation_date: 2018-01-12
 
 [Term]
 id: MIRO:10000182
 name: piperonyl butoxide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "PBO" EXACT []
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
 id: MIRO:10000183
-name: juvenile hormone analogue
+name: IRAC:7A juvenile hormone analogue
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000181 ! juvenile hormone mimic
+is_a: MIRO:10000181 ! juvenile hormone mimic (IRAC:7)
 
 [Term]
 id: MIRO:10000184
 name: hydroprene
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39234
-is_a: MIRO:10000183 ! juvenile hormone analogue
+is_a: MIRO:10000183 ! IRAC:7A juvenile hormone analogue
 
 [Term]
 id: MIRO:10000185
 name: kinoprene
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39243
-is_a: MIRO:10000183 ! juvenile hormone analogue
+is_a: MIRO:10000183 ! IRAC:7A juvenile hormone analogue
 
 [Term]
 id: MIRO:10000186
 name: methoprene
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39255
-is_a: MIRO:10000183 ! juvenile hormone analogue
+is_a: MIRO:10000183 ! IRAC:7A juvenile hormone analogue
 
 [Term]
 id: MIRO:10000187
 name: DEF
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2387,13 +2934,13 @@ id: MIRO:10000188
 name: fenoxycarb
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:5009
-is_a: MIRO:10000181 ! juvenile hormone mimic
+is_a: IRO:0000056 ! IRAC:7B fenoxycarb
 
 [Term]
 id: MIRO:10000189
 name: sesamex
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2401,7 +2948,7 @@ id: MIRO:10000190
 name: pyriproxyfen
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39260
-is_a: MIRO:10000181 ! juvenile hormone mimic
+is_a: IRO:0000079 ! IRAC:7C pyriproxyfen
 
 [Term]
 id: MIRO:10000191
@@ -2415,7 +2962,7 @@ is_a: snap:Role ! role
 id: MIRO:10000192
 name: SV1
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2423,7 +2970,7 @@ id: MIRO:10000193
 name: methyl bromide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39275
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000057 ! miscellaneous non-specific inhibitor (IRAC:8)
 relationship: has_role MIRO:10000191 ! fumigant
 
 [Term]
@@ -2437,7 +2984,7 @@ id: MIRO:10000195
 name: triphenyl phosphate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "TPP" EXACT []
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2445,14 +2992,14 @@ id: MIRO:10000196
 name: chloropicrin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39285
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000094 ! IRAC:8B chloropicrin
 relationship: has_role MIRO:10000191 ! fumigant
 
 [Term]
 id: MIRO:10000197
 name: piprotal
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2460,7 +3007,7 @@ id: MIRO:10000198
 name: sulfuryl fluoride
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39287
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000093 ! IRAC:8C fluorides
 relationship: has_role MIRO:10000191 ! fumigant
 
 [Term]
@@ -2474,7 +3021,7 @@ is_a: snap:Role ! role
 id: MIRO:10000200
 name: propyl isome
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2482,14 +3029,14 @@ id: MIRO:10000201
 name: cryolite
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39290
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000093 ! IRAC:8C fluorides
 relationship: has_role MIRO:10000199 ! selective feeding blocker
 
 [Term]
 id: MIRO:10000202
 name: sesamolin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2497,14 +3044,14 @@ id: MIRO:10000203
 name: pymetrozine
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39311
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000090 ! IRAC:9B pyridine azomethine derivatives
 relationship: has_role MIRO:10000199 ! selective feeding blocker
 
 [Term]
 id: MIRO:10000204
 name: sulfoxide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2512,7 +3059,7 @@ id: MIRO:10000205
 name: flonicamid
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39291
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000076 ! chordotonal organ modulator (IRAC:29)
 relationship: has_role MIRO:10000199 ! selective feeding blocker
 
 [Term]
@@ -2520,14 +3067,14 @@ id: MIRO:10000206
 name: growth inhibitor sensu acarea
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: IRAC:eClassification "http://www.irac-online.org/eClassification/"
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000059 ! mite growth inhibitor (IRAC:10)
 relationship: has_role MIRO:10000030 ! growth inhibitor
 
 [Term]
 id: MIRO:10000207
 name: tribufos
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000216 ! chemical compound
+is_a: IRO:0000049 ! synergist
 relationship: has_role MIRO:10000171 ! synergist
 
 [Term]
@@ -2576,7 +3123,7 @@ id: MIRO:10000214
 name: Bacillus thurigiensis toxin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "Bt toxin" EXACT []
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000060 ! microbial disruptors of insect midgut membrane (IRAC:11)
 relationship: has_role MIRO:10000213 ! insect midgut membranes disruptor
 created_by: Pantelis
 creation_date: 2009-03-13T10:56:22Z
@@ -2635,6 +3182,7 @@ name: acetylcholinesterase
 def: "A protein that is a translation product of the ACHE gene or a one to one ortholog thereof." [PRO:000003626]
 synonym: "AChE" EXACT []
 is_a: MIRO:10000220 ! protein
+relationship: influences MIRO:00000127 ! AChE mediated resistance
 created_by: Pantelis
 creation_date: 2010-07-29T10:49:13Z
 
@@ -2654,12 +3202,13 @@ is_a: snap:Role ! role
 
 [Term]
 id: MIRO:10000225
-name: para
+name: voltage-gated sodium channel
 def: "A sodium channel in a cell membrane whose opening is governed by the membrane potential." [GO:0001518]
 synonym: "kdr" RELATED []
-synonym: "kdr gene" RELATED []
-synonym: "voltage gated sodium channel" RELATED []
+synonym: "para" RELATED []
+synonym: "Vgsc" RELATED []
 is_a: MIRO:10000220 ! protein
+relationship: influences MIRO:00000131 ! sodium channel mediated resistance
 created_by: Pantelis
 creation_date: 2010-07-29T10:59:29Z
 
@@ -2668,7 +3217,7 @@ id: MIRO:10000226
 name: diafenthiuron
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39299
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000087 ! IRAC:12A diafenthiuron
 relationship: has_role MIRO:10000224 ! oxidative phosphorylation inhibitor
 
 [Term]
@@ -2683,10 +3232,10 @@ creation_date: 2010-07-29T11:12:45Z
 
 [Term]
 id: MIRO:10000228
-name: organotin miticide
+name: IRAC:12B organotin miticide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39292
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000061 ! inhibitors of mitochondrial ATP synthase (IRAC:12)
 relationship: has_role MIRO:10000224 ! oxidative phosphorylation inhibitor
 
 [Term]
@@ -2694,28 +3243,28 @@ id: MIRO:10000229
 name: azocyclotin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:2959
-is_a: MIRO:10000228 ! organotin miticide
+is_a: MIRO:10000228 ! IRAC:12B organotin miticide
 
 [Term]
 id: MIRO:10000230
 name: cyhexatin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:4036
-is_a: MIRO:10000228 ! organotin miticide
+is_a: MIRO:10000228 ! IRAC:12B organotin miticide
 
 [Term]
 id: MIRO:10000231
 name: fenbutatin oxide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39294
-is_a: MIRO:10000228 ! organotin miticide
+is_a: MIRO:10000228 ! IRAC:12B organotin miticide
 
 [Term]
 id: MIRO:10000233
 name: propargite
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39300
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000088 ! IRAC:12C propargite
 relationship: has_role MIRO:10000224 ! oxidative phosphorylation inhibitor
 
 [Term]
@@ -2723,7 +3272,7 @@ id: MIRO:10000234
 name: tetradifon
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39330
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000089 ! IRAC:12D tetradifon
 relationship: has_role MIRO:10000224 ! oxidative phosphorylation inhibitor
 
 [Term]
@@ -2731,7 +3280,7 @@ id: MIRO:10000235
 name: chloropropylate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39411
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000061 ! inhibitors of mitochondrial ATP synthase (IRAC:12)
 relationship: has_role MIRO:10000224 ! oxidative phosphorylation inhibitor
 
 [Term]
@@ -2746,7 +3295,7 @@ id: MIRO:10000237
 name: chlorfenapyr
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:39347
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000062 ! uncouplers of oxidative phosphorylation (IRAC:13)
 relationship: has_role MIRO:10000236 ! uncoupler of oxidative phosphorylation
 
 [Term]
@@ -2755,7 +3304,7 @@ name: DNOC
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 synonym: "4,6-dinitro-o-cresol" EXACT []
 xref: CHEBI:39349
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000062 ! uncouplers of oxidative phosphorylation (IRAC:13)
 relationship: has_role MIRO:10000236 ! uncoupler of oxidative phosphorylation
 
 [Term]
@@ -2771,7 +3320,7 @@ id: MIRO:10000241
 name: benzoylurea
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38494
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000064 ! inhibitor of chitin biosynthesis type 0 (IRAC:15)
 relationship: has_role MIRO:10000001 ! chitin biosynthesis inhibitor
 
 [Term]
@@ -2856,14 +3405,14 @@ id: MIRO:10000254
 name: buprofezin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:3218
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000065 ! inhibitor of chitin biosynthesis type 1 (IRAC:16)
 relationship: has_role MIRO:10000001 ! chitin biosynthesis inhibitor
 
 [Term]
 id: MIRO:10000255
 name: moulting disruptor in Diptera
 def: "A chemical substance which is being used as insecticide." [PT:PT]
-is_a: MIRO:10000101 ! moulting disruptor
+is_a: MIRO:10000101 ! moulting disruptor (IRAC:17)
 
 [Term]
 id: MIRO:10000256
@@ -2877,7 +3426,7 @@ id: MIRO:10000257
 name: moulting disruptor via ecdysone agonist
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38456
-is_a: MIRO:10000101 ! moulting disruptor
+is_a: MIRO:10000101 ! moulting disruptor (IRAC:17)
 
 [Term]
 id: MIRO:10000259
@@ -2926,7 +3475,7 @@ id: MIRO:10000266
 name: amitraz
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:2665
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000068 ! octopamine receptor agonist (IRAC:19)
 relationship: has_role MIRO:10000265 ! octopaminergic agonist
 
 [Term]
@@ -2943,7 +3492,7 @@ id: MIRO:10000269
 name: hydramethylnon
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:2630
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000082 ! IRAC:20A hydramethylnon
 relationship: has_role MIRO:10000267 ! mitochondrial complex III electron transport inhibitor
 
 [Term]
@@ -2951,7 +3500,7 @@ id: MIRO:10000271
 name: acequinocyl
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38592
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000083 ! IRAC:20B acequinocyl
 relationship: has_role MIRO:10000267 ! mitochondrial complex III electron transport inhibitor
 
 [Term]
@@ -2959,7 +3508,7 @@ id: MIRO:10000273
 name: fluacrypyrim
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38591
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000084 ! IRAC:20C fluacrypyrim
 relationship: has_role MIRO:10000267 ! mitochondrial complex III electron transport inhibitor
 
 [Term]
@@ -2974,7 +3523,7 @@ id: MIRO:10000275
 name: fenazaquin
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38593
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -2982,7 +3531,7 @@ id: MIRO:10000276
 name: fenpyroximate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:5011
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -2990,7 +3539,7 @@ id: MIRO:10000277
 name: pyrimidifen
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38604
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -2998,7 +3547,7 @@ id: MIRO:10000278
 name: pyridaben
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38626
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -3006,7 +3555,7 @@ id: MIRO:10000279
 name: tebufenpyrad
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:9422
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -3014,7 +3563,7 @@ id: MIRO:10000280
 name: tolfenpyrad
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38628
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000080 ! IRAC:21A METI acaracides and insecticides
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -3022,7 +3571,7 @@ id: MIRO:10000281
 name: rotenone
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:28201
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000081 ! IRAC:21B rotenone
 relationship: has_role MIRO:10000274 ! mitochondrial complex I electron transport inhibitor
 
 [Term]
@@ -3038,7 +3587,7 @@ id: MIRO:10000283
 name: indoxacarb
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38630
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000091 ! IRAC:22A oxadiazines
 relationship: has_role MIRO:10000282 ! voltage-dependent sodium channel blocker
 
 [Term]
@@ -3053,7 +3602,7 @@ id: MIRO:10000285
 name: tetronic acid derivative
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:33755
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000072 ! inhibitor of acetyl CoA carboxylase (IRAC:23)
 relationship: has_role MIRO:10000284 ! lipid synthesis inhibitor
 
 [Term]
@@ -3089,7 +3638,7 @@ id: MIRO:10000290
 name: aluminium phosphide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38495
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000096 ! IRAC:24A phosphides
 relationship: has_role MIRO:10000288 ! mitochondrial complex IV electron transport inhibitor
 
 [Term]
@@ -3097,7 +3646,7 @@ id: MIRO:10000292
 name: cyanide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:17514
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000097 ! IRAC:24B cyanides
 relationship: has_role MIRO:10000288 ! mitochondrial complex IV electron transport inhibitor
 
 [Term]
@@ -3105,7 +3654,7 @@ id: MIRO:10000294
 name: phosphine
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:35883
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000096 ! IRAC:24A phosphides
 relationship: has_role MIRO:10000288 ! mitochondrial complex IV electron transport inhibitor
 
 [Term]
@@ -3119,7 +3668,7 @@ is_a: snap:Role ! role
 id: MIRO:10000296
 name: bifenazate
 def: "A chemical substance which is able to kill insects." [PT:PT]
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000085 ! IRAC:20D bifenazate
 relationship: has_role MIRO:10000295 ! neuronal inhibitor
 
 [Term]
@@ -3134,7 +3683,7 @@ id: MIRO:10000298
 name: fluoroacetate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:18172
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000098 ! inhibitor of aconitase
 relationship: has_role MIRO:10000297 ! aconitase inhibitor
 
 [Term]
@@ -3150,7 +3699,7 @@ id: MIRO:10000307
 name: flubendiamide
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38798
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000095 ! diamides
 relationship: has_role MIRO:10000306 ! ryanodine receptor modulator
 
 [Term]
@@ -3158,7 +3707,7 @@ id: MIRO:10000310
 name: benzoximate
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38813
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000077 ! compounds of unknown MOA (IRAC:UN)
 relationship: has_role MIRO:10000306 ! ryanodine receptor modulator
 
 [Term]
@@ -3166,7 +3715,7 @@ id: MIRO:10000312
 name: chinomethionat
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:34620
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000077 ! compounds of unknown MOA (IRAC:UN)
 relationship: has_role MIRO:10000306 ! ryanodine receptor modulator
 
 [Term]
@@ -3174,7 +3723,7 @@ id: MIRO:10000314
 name: dicofol
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:34692
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000077 ! compounds of unknown MOA (IRAC:UN)
 relationship: has_role MIRO:10000306 ! ryanodine receptor modulator
 
 [Term]
@@ -3182,7 +3731,7 @@ id: MIRO:10000316
 name: pyridalyl
 def: "A chemical substance which is being used as insecticide." [PT:PT]
 xref: CHEBI:38887
-is_a: MIRO:10000239 ! insecticidal substance
+is_a: IRO:0000077 ! compounds of unknown MOA (IRAC:UN)
 relationship: has_role MIRO:10000306 ! ryanodine receptor modulator
 
 [Term]
