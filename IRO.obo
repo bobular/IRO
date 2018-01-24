@@ -936,6 +936,12 @@ def: "A toxin of Bacillus thuringiensis var. israelensis" []
 is_a: MIRO:10000215 ! Bacillus thurigiensis var. israelensis toxin
 
 [Term]
+id: IRO:0000127
+name: nested-PCR
+def: "Nested polymerase chain reaction (Nested PCR) is a modification of polymerase chain reaction intended to reduce non-specific binding in products due to the amplification of unexpected primer binding sites." []
+is_a: MIRO:20000096 ! monitoring known mutations
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
