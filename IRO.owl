@@ -2309,6 +2309,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>Sticky traps constitute a method of sampling sand flies by interception rather than attraction. Standardised pieces of white un-waxed paper or cards are soaked in castor oil andplaced in sand fly resting places overnight.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sticky trap</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000128</oboInOwl:id>
+        <rdfs:label xml:lang="en">sticky trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
