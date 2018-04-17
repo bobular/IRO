@@ -2322,6 +2322,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000032"/>
+        <obo:IAO_0000115>The second generation of mosquito adults derived from field collected mosquitoes.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000129</oboInOwl:id>
+        <rdfs:label xml:lang="en">F2 adults</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000032"/>
+        <obo:IAO_0000115>The second generation of mosquito larvae derived from field collected mosquitoes.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000130</oboInOwl:id>
+        <rdfs:label xml:lang="en">F2 larvae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
