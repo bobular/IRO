@@ -2368,6 +2368,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000032"/>
+        <obo:IAO_0000115>The first generation of mosquito adults derived from field collected mosquitoes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">F1 adults</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000133"/>
+        <obo:IAO_0000115>The first generation of mosquito adults derived from mosquitoes collected as eggs in the field.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">F1 adults emerged from field collected eggs</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
@@ -12757,7 +12778,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_30000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_30000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000133"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mosquitoes derived from adult mosquitoes collected in the field, which were let to lay eggs in the laboratory. These were allowed to develop to the adult stage before determining their resistance to insecticides.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000031</oboInOwl:id>
