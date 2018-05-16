@@ -949,6 +949,42 @@ synonym: "sticky trap" EXACT []
 is_a: MIRO:30000011 ! trap catch
 
 [Term]
+id: IRO:0000129
+name: F2 adults
+def: "The second generation of mosquito adults derived from field collected mosquitoes." []
+is_a: MIRO:30000032 ! field population
+
+[Term]
+id: IRO:0000130
+name: F2 larvae
+def: "The second generation of mosquito larvae derived from field collected mosquitoes." []
+is_a: MIRO:30000032 ! field population
+
+[Term]
+id: IRO:0000131
+name: F1 larvae
+def: "The first generation of mosquito larvae derived from field collected mosquitoes." []
+is_a: MIRO:30000032 ! field population
+
+[Term]
+id: IRO:0000132
+name: F1 larvae emerged from field collected eggs
+def: "The first generation of mosquito larvae derived from mosquitoes collected as eggs in the field." []
+is_a: IRO:0000131 ! F1 larvae
+
+[Term]
+id: IRO:0000133
+name: F1 adults
+def: "The first generation of mosquito adults derived from field collected mosquitoes." []
+is_a: MIRO:30000032 ! field population
+
+[Term]
+id: IRO:0000134
+name: F1 adults emerged from field collected eggs
+def: "The first generation of mosquito adults derived from mosquitoes collected as eggs in the field." []
+is_a: IRO:0000133 ! F1 adults
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
@@ -4575,13 +4611,13 @@ is_a: MIRO:30000034 ! F0 adults
 id: MIRO:30000030
 name: F1 larvae bred from field collected mosquitoes
 def: "Mosquito larvae derived from adult mosquitoes collected in the field, which were let to lay eggs in the laboratory." [KL:KL]
-is_a: MIRO:30000032 ! field population
+is_a: IRO:0000131 ! F1 larvae
 
 [Term]
 id: MIRO:30000031
 name: F1 adults from field collected mosquitoes
 def: "Mosquitoes derived from adult mosquitoes collected in the field, which were let to lay eggs in the laboratory. These were allowed to develop to the adult stage before determining their resistance to insecticides." [KL:KL]
-is_a: MIRO:30000032 ! field population
+is_a: IRO:0000133 ! F1 adults
 
 [Term]
 id: MIRO:30000032
