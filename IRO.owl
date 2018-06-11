@@ -2408,6 +2408,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000218"/>
+        <rdfs:label xml:lang="en">pathogen detection method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000137"/>
+        <obo:IAO_0000115>A rapid wicking assay that identifies the presence or absence of specific peptide epitopes of CS protein of the most important P. falciparum and two strains (variants 210 and 247) of the more widespread P. vivax. The resulting assay is a rapid, one-step procedure using a &apos;dipstick&apos; wicking test strip.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>dipstick test</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">VectorTest</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
