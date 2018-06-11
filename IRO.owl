@@ -2389,6 +2389,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000218"/>
+        <rdfs:label xml:lang="en">blood meal analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000135"/>
+        <obo:IAO_0000115>Counter current immunoelectrophoresis is a modification of immunoelectrophoresis in which antigen and antibody migrate towards opposite directions and form a visible white precipitate in the area between the wells.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">counter current immunoelectrophoresis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
