@@ -985,6 +985,29 @@ def: "The first generation of mosquito adults derived from mosquitoes collected 
 is_a: IRO:0000133 ! F1 adults
 
 [Term]
+id: IRO:0000135
+name: blood meal analysis
+is_a: MIRO:10000218 ! planned process
+
+[Term]
+id: IRO:0000136
+name: counter current immunoelectrophoresis
+def: "Counter current immunoelectrophoresis is a modification of immunoelectrophoresis in which antigen and antibody migrate towards opposite directions and form a visible white precipitate in the area between the wells." []
+is_a: IRO:0000135 ! blood meal analysis
+
+[Term]
+id: IRO:0000137
+name: pathogen detection method
+is_a: MIRO:10000218 ! planned process
+
+[Term]
+id: IRO:0000138
+name: VectorTest
+def: "A rapid wicking assay that identifies the presence or absence of specific peptide epitopes of CS protein of the most important P. falciparum and two strains (variants 210 and 247) of the more widespread P. vivax. The resulting assay is a rapid, one-step procedure using a 'dipstick' wicking test strip." []
+synonym: "dipstick test" RELATED []
+is_a: IRO:0000137 ! pathogen detection method
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
