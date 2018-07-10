@@ -1066,9 +1066,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
         <obo:IAO_0000115>a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis.</obo:IAO_0000115>
         <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000035</oboInOwl:id>
-        <rdfs:label xml:lang="en">CO2</rdfs:label>
+        <rdfs:label xml:lang="en">carbon dioxide</rdfs:label>
     </owl:Class>
     
 
@@ -1079,7 +1079,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
         <obo:IAO_0000115>1-Octen-3-ol, octenol for short and also known as mushroom alcohol, is a chemical that attracts biting insects such as mosquitoes.</obo:IAO_0000115>
         <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000036</oboInOwl:id>
         <rdfs:label xml:lang="en">octenol</rdfs:label>
     </owl:Class>
@@ -1089,10 +1089,10 @@
     <!-- http://purl.obolibrary.org/obo/IRO_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0001058"/>
         <obo:IAO_0000115>An attractant used for the collection of Culex mosquito species.</obo:IAO_0000115>
         <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>IRO:0000037</oboInOwl:id>
         <rdfs:label xml:lang="en">hay or grass infusion</rdfs:label>
     </owl:Class>
@@ -2424,6 +2424,55 @@
         <obo:IAO_0000115>A rapid wicking assay that identifies the presence or absence of specific peptide epitopes of CS protein of the most important P. falciparum and two strains (variants 210 and 247) of the more widespread P. vivax. The resulting assay is a rapid, one-step procedure using a &apos;dipstick&apos; wicking test strip.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>dipstick test</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">VectorTest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000139</oboInOwl:id>
+        <rdfs:label xml:lang="en">light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001058</oboInOwl:id>
+        <rdfs:label xml:lang="en">organic infusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0001058"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001059</oboInOwl:id>
+        <rdfs:label xml:lang="en">alfalfa infusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0001060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mimic of human skin scent containing reltively high concentrations of lactic acid, ammonia and fatty acids.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001060</oboInOwl:id>
+        <rdfs:label xml:lang="en">BG-lure</rdfs:label>
     </owl:Class>
     
 
