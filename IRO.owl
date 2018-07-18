@@ -2440,6 +2440,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000030"/>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>IRO:0000140</oboInOwl:id>
+        <rdfs:comment>A sticky trap specifically designed to capture gravid females of Aedes aegypti.</rdfs:comment>
+        <rdfs:label xml:lang="en">MosquiTRAP catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
