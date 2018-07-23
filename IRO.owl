@@ -2452,6 +2452,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000043"/>
+        <obo:IAO_0000115>Passive sampling method for resting mosquitoes. Resting buckets are set by placing them horizontally on the ground, with a black cloth soaked in water inside to increase humidity. Mosquitoes are collected from the bucket using an aspirator.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">resting bucket catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000043"/>
+        <obo:IAO_0000115>Passive sampling method for resting mosquitoes. This trap is a modification of the Sticky Resting Box in which the inner surface is lined with sticky surfaces to trap mosquitoes that land on them. The sticky resting box is a resting box with an inner lining made of four A4 acetate sheets coated in DeBello rat glue.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">sticky resting bucket catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
@@ -12752,7 +12774,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_30000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_30000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000012"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field population catch method designed to catch specimens that are resting outdoors irrespective of the time of day.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000024</oboInOwl:id>
