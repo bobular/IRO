@@ -2474,6 +2474,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000028"/>
+        <obo:IAO_0000115>The device is combined with the BG-Sentinel mosquito trap from Biogents, a trap widely used by professionals for the monitoring and surveillance of mosquitoes. The BG-Counter automatically differentiates mosquitoes from other insects entering the trap, counts them, and wirelessly transmits the results to a cloud server.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">BG-Counter trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000005"/>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">automated identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000144"/>
+        <obo:IAO_0000115>Identification of mosquitoes by size.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">by size</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
