@@ -305,8 +305,9 @@ created_by: Sakelly
 
 [Term]
 id: IRO:0000035
-name: CO2
+name: carbon dioxide
 def: "a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis." []
+synonym: "CO2" EXACT []
 is_a: IRO:0000034 ! attractant
 created_by: Sakelly
 
@@ -321,7 +322,7 @@ created_by: Sakelly
 id: IRO:0000037
 name: hay or grass infusion
 def: "An attractant used for the collection of Culex mosquito species." []
-is_a: IRO:0000034 ! attractant
+is_a: IRO:0001058 ! organic infusion
 created_by: Sakelly
 
 [Term]
@@ -1006,6 +1007,66 @@ name: VectorTest
 def: "A rapid wicking assay that identifies the presence or absence of specific peptide epitopes of CS protein of the most important P. falciparum and two strains (variants 210 and 247) of the more widespread P. vivax. The resulting assay is a rapid, one-step procedure using a 'dipstick' wicking test strip." []
 synonym: "dipstick test" RELATED []
 is_a: IRO:0000137 ! pathogen detection method
+
+[Term]
+id: IRO:0000139
+name: light
+is_a: IRO:0000034 ! attractant
+created_by: lawson
+
+[Term]
+id: IRO:0000140
+name: MosquiTRAP catch
+comment: A sticky trap specifically designed to capture gravid females of Aedes aegypti.
+is_a: IRO:0000030 ! gravid trap catch
+
+[Term]
+id: IRO:0000141
+name: resting bucket catch
+def: "Passive sampling method for resting mosquitoes. Resting buckets are set by placing them horizontally on the ground, with a black cloth soaked in water inside to increase humidity. Mosquitoes are collected from the bucket using an aspirator." []
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0000142
+name: sticky resting bucket catch
+def: "Passive sampling method for resting mosquitoes. This trap is a modification of the Sticky Resting Box in which the inner surface is lined with sticky surfaces to trap mosquitoes that land on them. The sticky resting box is a resting box with an inner lining made of four A4 acetate sheets coated in DeBello rat glue." []
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0000143
+name: BG-Counter trap catch
+def: "The device is combined with the BG-Sentinel mosquito trap from Biogents, a trap widely used by professionals for the monitoring and surveillance of mosquitoes. The BG-Counter automatically differentiates mosquitoes from other insects entering the trap, counts them, and wirelessly transmits the results to a cloud server." []
+is_a: IRO:0000028 ! BGS trap catch
+
+[Term]
+id: IRO:0000144
+name: automated identification
+is_a: MIRO:30000005 ! species identification method
+
+[Term]
+id: IRO:0000145
+name: by size
+def: "Identification of mosquitoes by size." []
+is_a: IRO:0000144 ! automated identification
+
+[Term]
+id: IRO:0001058
+name: organic infusion
+is_a: IRO:0000034 ! attractant
+created_by: lawson
+
+[Term]
+id: IRO:0001059
+name: alfalfa infusion
+is_a: IRO:0001058 ! organic infusion
+created_by: lawson
+
+[Term]
+id: IRO:0001060
+name: BG-lure
+def: "Mimic of human skin scent containing reltively high concentrations of lactic acid, ammonia and fatty acids." []
+is_a: IRO:0000034 ! attractant
+created_by: lawson
 
 [Term]
 id: MIRO:00000000
@@ -4598,7 +4659,7 @@ creation_date: 2008-01-11T10:05:00Z
 id: MIRO:30000024
 name: outdoors shelter catch
 def: "A field population catch method designed to catch specimens that are resting outdoors irrespective of the time of day." [KL:KL]
-is_a: MIRO:30000043 ! catch by aspiration
+is_a: MIRO:30000012 ! animal biting catch
 
 [Term]
 id: MIRO:30000025
