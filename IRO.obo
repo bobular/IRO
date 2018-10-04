@@ -1050,6 +1050,18 @@ def: "Identification of mosquitoes by size." []
 is_a: IRO:0000144 ! automated identification
 
 [Term]
+id: IRO:0000146
+name: Kdr I1532
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+created_by: sakelly
+
+[Term]
+id: IRO:0000147
+name: Kdr I1532T
+is_a: IRO:0000146 ! Kdr I1532
+created_by: sakelly
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
