@@ -2529,6 +2529,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000003"/>
+        <rdfs:label xml:lang="en">esterase activity assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000148"/>
+        <obo:IAO_0000115>Biochemical assay to measure activity of alpha esterase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>alpha-esterase activity assay</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">alpha esterase activity assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000148"/>
+        <obo:IAO_0000115>Biochemical assay to measure activity of beta esterase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>beta-esterase acitivity assay</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">beta esterase activity assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
@@ -11597,7 +11628,7 @@
     <!-- http://purl.obolibrary.org/obo/MIRO_20000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_20000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical assay to measure nonspectific esterase activity present in a biological sample.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topito</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-01-24T12:10:59Z</oboInOwl:creation_date>
