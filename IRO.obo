@@ -1062,6 +1062,25 @@ is_a: IRO:0000146 ! Kdr I1532
 created_by: sakelly
 
 [Term]
+id: IRO:0000148
+name: esterase activity assay
+is_a: MIRO:20000003 ! biochemical assay
+
+[Term]
+id: IRO:0000149
+name: alpha esterase activity assay
+def: "Biochemical assay to measure activity of alpha esterase." []
+synonym: "alpha-esterase activity assay" EXACT []
+is_a: IRO:0000148 ! esterase activity assay
+
+[Term]
+id: IRO:0000150
+name: beta esterase activity assay
+def: "Biochemical assay to measure activity of beta esterase." []
+synonym: "beta-esterase acitivity assay" EXACT []
+is_a: IRO:0000148 ! esterase activity assay
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
@@ -4227,7 +4246,7 @@ creation_date: 2009-02-10T10:15:43Z
 
 [Term]
 id: MIRO:20000062
-name: mixed-fuction oxidase assay
+name: mixed-function oxidase assay
 def: "Biochemical assay to measure mixed-function oxidase activity present in a biological sample." [BM:BM]
 synonym: "MFO assay" EXACT []
 is_a: MIRO:20000003 ! biochemical assay
@@ -4239,7 +4258,7 @@ id: MIRO:20000063
 name: non-specific esterase assay
 def: "Biochemical assay to measure nonspectific esterase activity present in a biological sample." [doi:10.1016/0048-3575(90)90118-L]
 synonym: "NSE assay" EXACT []
-is_a: MIRO:20000003 ! biochemical assay
+is_a: IRO:0000148 ! esterase activity assay
 created_by: Topito
 creation_date: 2015-01-24T12:10:59Z
 
