@@ -256,7 +256,7 @@ is_a: MIRO:30000065 ! light trap catch
 
 [Term]
 id: IRO:0000028
-name: BGS trap catch
+name: BG-Sentinal trap catch
 def: "The BG-Sentinel mosquito trap mimics convection currents created by a human body, employs attractive visual cues, releases artificial skin emanations through a large surface area, can be used without CO2 to specifically capture selected mosquito species is an excellent general mosquito trap when used with CO2." []
 is_a: MIRO:30000011 ! trap catch
 created_by: Sakelly
@@ -1036,7 +1036,7 @@ is_a: MIRO:30000043 ! catch by aspiration
 id: IRO:0000143
 name: BG-Counter trap catch
 def: "The device is combined with the BG-Sentinel mosquito trap from Biogents, a trap widely used by professionals for the monitoring and surveillance of mosquitoes. The BG-Counter automatically differentiates mosquitoes from other insects entering the trap, counts them, and wirelessly transmits the results to a cloud server." []
-is_a: IRO:0000028 ! BGS trap catch
+is_a: IRO:0000028 ! BG-Sentinal trap catch
 
 [Term]
 id: IRO:0000144
@@ -1079,6 +1079,12 @@ name: beta esterase activity assay
 def: "Biochemical assay to measure activity of beta esterase." []
 synonym: "beta-esterase acitivity assay" EXACT []
 is_a: IRO:0000148 ! esterase activity assay
+
+[Term]
+id: IRO:0000151
+name: ligase detection reaction-fluorescent microsphere assay
+synonym: "LDR-FMA" EXACT []
+is_a: MIRO:20000103 ! ligation detection reaction
 
 [Term]
 id: IRO:0001058
@@ -3915,6 +3921,7 @@ is_a: MIRO:20000046 ! diagnostic test with synergist
 id: MIRO:20000003
 name: biochemical assay
 def: "An assay used to determine enzyme activity associated with insecticide resistance phenotypes." [KL:KL]
+synonym: "metabolic resistance assay" EXACT []
 is_a: MIRO:20000001 ! resistance identification/monitoring
 
 [Term]
