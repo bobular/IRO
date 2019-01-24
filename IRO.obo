@@ -1087,6 +1087,12 @@ synonym: "LDR-FMA" EXACT []
 is_a: MIRO:20000103 ! ligation detection reaction
 
 [Term]
+id: IRO:0000152
+name: F0 eggs
+def: "Refers to the mosquito eggs collected from a field population." []
+is_a: MIRO:30000032 ! field population
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
