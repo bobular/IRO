@@ -1098,6 +1098,12 @@ name: no attractant used
 is_a: IRO:0000034 ! attractant
 
 [Term]
+id: IRO:0000154
+name: OVI light-suction trap
+def: "Onderstepoort Veterinary Institute (OVI) light-suction traps. OVI light-suction traps are widely used for conducting Culicoides surveillance. They provide are cost-effective, time-efficient and can be easily run by non-expert volunteers, increasing the number of traps that can be run in a surveillance network." []
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
