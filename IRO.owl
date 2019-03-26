@@ -2599,6 +2599,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000058"/>
+        <rdfs:comment>Insecticide is added directly to the thorax of the insect.</rdfs:comment>
+        <rdfs:label xml:lang="en">topical application assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
