@@ -1104,6 +1104,12 @@ def: "Onderstepoort Veterinary Institute (OVI) light-suction traps. OVI light-su
 is_a: MIRO:30000011 ! trap catch
 
 [Term]
+id: IRO:0000155
+name: topical application assay
+comment: Insecticide is added directly to the thorax of the insect.
+is_a: MIRO:20000058 ! bioassay
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
