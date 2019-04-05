@@ -1053,6 +1053,7 @@ is_a: IRO:0000144 ! automated identification
 id: IRO:0000146
 name: Kdr I1532
 is_a: MIRO:10000225 ! voltage-gated sodium channel
+relationship: has_quality IRO:0000123 ! sequence variant position
 created_by: sakelly
 
 [Term]
@@ -1108,6 +1109,12 @@ id: IRO:0000155
 name: topical application assay
 comment: Insecticide is added directly to the thorax of the insect.
 is_a: MIRO:20000058 ! bioassay
+
+[Term]
+id: IRO:0000156
+name: Kdr I1532
+is_a: IRO:0000146 ! Kdr I1532
+relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
 id: IRO:0001058
