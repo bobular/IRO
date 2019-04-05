@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
      xml:base="http://purl.obolibrary.org/obo/TEMP"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
     </owl:Ontology>
     
 
@@ -2609,6 +2609,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000146"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Kdr I1532</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
@@ -3259,15 +3274,15 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000028"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resistance resulting from a chemical-independent modification in behaviour that helps the insect avoid the lethal effect of insecticides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:manual</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000028"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:manual</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC manual</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resistance resulting from a chemical-independent modification in behaviour that helps the insect avoid the lethal effect of insecticides.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRAC:manual</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14389,5 +14404,5 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
 
