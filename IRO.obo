@@ -1060,6 +1060,7 @@ created_by: sakelly
 id: IRO:0000147
 name: Kdr I1532T
 is_a: IRO:0000146 ! Kdr I1532
+relationship: has_quality MIRO:00000113 ! sodium channel structural change
 created_by: sakelly
 
 [Term]

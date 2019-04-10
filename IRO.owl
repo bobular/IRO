@@ -2528,6 +2528,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000146"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:created_by>sakelly</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">Kdr I1532T</rdfs:label>
