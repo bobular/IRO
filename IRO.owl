@@ -2636,6 +2636,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <rdfs:label xml:lang="en">live animal bait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000157"/>
+        <rdfs:label xml:lang="en">live chicken bait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
