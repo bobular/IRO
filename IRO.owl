@@ -2640,6 +2640,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <oboInOwl:hasRelatedSynonym>sentinal animal</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">live animal bait</rdfs:label>
     </owl:Class>
     
@@ -2649,6 +2650,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000157"/>
+        <oboInOwl:hasRelatedSynonym>sentinal chicken</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">live chicken bait</rdfs:label>
     </owl:Class>
     
