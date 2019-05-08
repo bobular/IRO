@@ -2656,6 +2656,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000000"/>
+        <rdfs:label xml:lang="en">yeast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0001058"/>
+        <rdfs:label xml:lang="en">chicken manure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
