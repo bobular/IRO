@@ -14131,6 +14131,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0003980">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
+        <obo:IAO_0000115>Light trap catch set at height of tree canopy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">canopy light trap catch</rdfs:label>
     </owl:Class>
     
