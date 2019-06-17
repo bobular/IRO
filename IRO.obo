@@ -1118,6 +1118,40 @@ is_a: IRO:0000146 ! Kdr I1532
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
+id: IRO:0000157
+name: live animal bait
+synonym: "sentinal animal" RELATED []
+is_a: IRO:0000034 ! attractant
+
+[Term]
+id: IRO:0000158
+name: live chicken bait
+synonym: "sentinal chicken" RELATED []
+is_a: IRO:0000157 ! live animal bait
+
+[Term]
+id: IRO:0000159
+name: yeast
+is_a: MIRO:30000000 ! biological material
+
+[Term]
+id: IRO:0000160
+name: chicken manure
+is_a: IRO:0001058 ! organic infusion
+
+[Term]
+id: IRO:0000161
+name: gravid aedes trap catch
+def: "A passive tool for mass trapping of Aedes mosquitoes" []
+is_a: IRO:0000030 ! gravid trap catch
+
+[Term]
+id: IRO:0000162
+name: BG-GAT
+def: "Biogents’ passive BG-GAT (Gravid Aedes Trap) attracts female Aedes (Stegomyia) mosquitoes with water and oviposition cues. These mosquito species are vectors of diseases like dengue fever, Zika, chikungunya, or yellow fever. Mosquitoes trying to find an oviposition site enter the transparent chamber through the black funnel on top of the trap. In the transparent chamber they are exposed to a sticky surface, oil, or insecticides. The transparent chamber makes it difficult for the mosquitoes to escape, and the black mesh net provides a barrier between mosquitoes and the infused water." []
+is_a: IRO:0000161 ! gravid aedes trap catch
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
@@ -5158,6 +5192,12 @@ def: "A chromosome 2 found in the nucleus of the cells of the organisms which be
 is_a: MIRO:30000068 ! Anopheles gambiae sensu lato inverted nuclear chromosome 2R
 created_by: Topito
 creation_date: 2014-04-10T21:16:21Z
+
+[Term]
+id: VBcv:0003980
+name: canopy light trap catch
+def: "Light trap catch set at height of tree canopy." []
+is_a: MIRO:30000065 ! light trap catch
 
 [Term]
 id: bfo:Entity
