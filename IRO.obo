@@ -4010,9 +4010,10 @@ is_a: MIRO:20000081 ! carboxylesterase activity assay
 
 [Term]
 id: MIRO:20000009
-name: bottle bioassay DT
+name: CDC bottle bioassay
 def: "Diagnostic assay, performed in a glass bottle coated with insecticides." [KL:KL]
 synonym: "bottle bioassay diagnostic test" EXACT []
+synonym: "bottle bioassay DT" RELATED []
 is_a: MIRO:20000075 ! diagnostic test
 
 [Term]
