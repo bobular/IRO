@@ -2694,6 +2694,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
+        <obo:IAO_0000115>Developed by the U.S. Centers for Disease Control to provide a reliable and portable sampling device for the collection of mosquitoes and sand flies used in arbovirus and taxonomic studies. This basic trap is capable of once-a-day tending when fitted with the optionally available PhotoSwitch and Air-Actuated Gate System.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">CDC light trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
