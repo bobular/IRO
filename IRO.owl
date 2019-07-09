@@ -2704,6 +2704,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000137"/>
+        <oboInOwl:hasExactSynonym>RAMP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Rapid Analyte Measurement Platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000137"/>
+        <oboInOwl:hasExactSynonym>LAMP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Loop-mediated isothermal amplification</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
