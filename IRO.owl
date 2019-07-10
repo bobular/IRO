@@ -2724,6 +2724,350 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
+        <obo:IAO_0000115>Temporary proof-of-concept terms for WWARN data integration.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chloroquine resistance transporter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_50000004"/>
+        <obo:IAO_0000115>Temporary proof-of-concept terms for WWARN data integration.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chloroquine resistance transporter structural change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000166"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfcrt 76</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000168"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfcrt K76</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000168"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfcrt 76T</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000168"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Multiple genotypes detected in a mixed sample</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pfcrt 76K/T</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
+        <obo:IAO_0000115>Temporary proof-of-concept terms for WWARN data integration.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">multidrug resistance protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_50000004"/>
+        <obo:IAO_0000115>Temporary proof-of-concept terms for WWARN data integration.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">multidrug resistance protein 1 structural change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 1246</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000174"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 D1246</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000174"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 1246Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000174"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Multiple genotypes detected in a mixed sample</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pfmdr1 1246D/Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 184</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000178"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 Y184</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000178"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 184F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000178"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Multiple genotypes detected in a mixed sample</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pfmdr1 184Y/F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 86</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 N86</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 86Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Multiple genotypes detected in a mixed sample</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pfmdr1 86N/Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 1042</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 N1042</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 1034</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000188"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pfmdr1 S1034</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
@@ -14515,5 +14859,5 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 

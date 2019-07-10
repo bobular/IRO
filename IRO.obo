@@ -1152,6 +1152,172 @@ def: "Biogents’ passive BG-GAT (Gravid Aedes Trap) attracts female Aedes (Steg
 is_a: IRO:0000161 ! gravid aedes trap catch
 
 [Term]
+id: IRO:0000163
+name: CDC light trap catch
+def: "Developed by the U.S. Centers for Disease Control to provide a reliable and portable sampling device for the collection of mosquitoes and sand flies used in arbovirus and taxonomic studies. This basic trap is capable of once-a-day tending when fitted with the optionally available PhotoSwitch and Air-Actuated Gate System." []
+is_a: MIRO:30000065 ! light trap catch
+
+[Term]
+id: IRO:0000164
+name: Rapid Analyte Measurement Platform
+synonym: "RAMP" EXACT []
+is_a: IRO:0000137 ! pathogen detection method
+
+[Term]
+id: IRO:0000165
+name: Loop-mediated isothermal amplification
+synonym: "LAMP" EXACT []
+is_a: IRO:0000137 ! pathogen detection method
+
+[Term]
+id: IRO:0000166
+name: chloroquine resistance transporter
+def: "Temporary proof-of-concept terms for WWARN data integration." []
+is_a: MIRO:10000220 ! protein
+
+[Term]
+id: IRO:0000167
+name: chloroquine resistance transporter structural change
+def: "Temporary proof-of-concept terms for WWARN data integration." []
+is_a: IDOMAL:50000004 ! mutated protein
+
+[Term]
+id: IRO:0000168
+name: pfcrt 76
+is_a: IRO:0000166 ! chloroquine resistance transporter
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000169
+name: pfcrt K76
+is_a: IRO:0000168 ! pfcrt 76
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000170
+name: pfcrt 76T
+is_a: IRO:0000168 ! pfcrt 76
+relationship: has_quality IRO:0000167 ! chloroquine resistance transporter structural change
+
+[Term]
+id: IRO:0000171
+name: pfcrt 76K/T
+def: "Multiple genotypes detected in a mixed sample" []
+is_a: IRO:0000168 ! pfcrt 76
+relationship: has_quality IRO:0000167 ! chloroquine resistance transporter structural change
+
+[Term]
+id: IRO:0000172
+name: multidrug resistance protein 1
+def: "Temporary proof-of-concept terms for WWARN data integration." []
+is_a: MIRO:10000220 ! protein
+
+[Term]
+id: IRO:0000173
+name: multidrug resistance protein 1 structural change
+def: "Temporary proof-of-concept terms for WWARN data integration." []
+is_a: IDOMAL:50000004 ! mutated protein
+
+[Term]
+id: IRO:0000174
+name: pfmdr1 1246
+is_a: IRO:0000172 ! multidrug resistance protein 1
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000175
+name: pfmdr1 D1246
+is_a: IRO:0000174 ! pfmdr1 1246
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000176
+name: pfmdr1 1246Y
+is_a: IRO:0000174 ! pfmdr1 1246
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000177
+name: pfmdr1 1246D/Y
+def: "Multiple genotypes detected in a mixed sample" []
+is_a: IRO:0000174 ! pfmdr1 1246
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000178
+name: pfmdr1 184
+is_a: IRO:0000172 ! multidrug resistance protein 1
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000179
+name: pfmdr1 Y184
+is_a: IRO:0000178 ! pfmdr1 184
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000180
+name: pfmdr1 184F
+is_a: IRO:0000178 ! pfmdr1 184
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000181
+name: pfmdr1 184Y/F
+def: "Multiple genotypes detected in a mixed sample" []
+is_a: IRO:0000178 ! pfmdr1 184
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000182
+name: pfmdr1 86
+is_a: IRO:0000172 ! multidrug resistance protein 1
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000183
+name: pfmdr1 N86
+is_a: IRO:0000182 ! pfmdr1 86
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000184
+name: pfmdr1 86Y
+is_a: IRO:0000182 ! pfmdr1 86
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000185
+name: pfmdr1 86N/Y
+def: "Multiple genotypes detected in a mixed sample" []
+is_a: IRO:0000182 ! pfmdr1 86
+relationship: has_quality IRO:0000173 ! multidrug resistance protein 1 structural change
+
+[Term]
+id: IRO:0000186
+name: pfmdr1 1042
+is_a: IRO:0000172 ! multidrug resistance protein 1
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000187
+name: pfmdr1 N1042
+is_a: IRO:0000186 ! pfmdr1 1042
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
+id: IRO:0000188
+name: pfmdr1 1034
+is_a: IRO:0000172 ! multidrug resistance protein 1
+relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0000189
+name: pfmdr1 S1034
+is_a: IRO:0000188 ! pfmdr1 1034
+relationship: has_quality IRO:0000001 ! wild type allele information
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
