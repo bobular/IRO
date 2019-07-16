@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
      xml:base="http://purl.obolibrary.org/obo/TEMP"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
     </owl:Ontology>
     
 
@@ -3064,6 +3064,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pfmdr1 S1034</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <rdfs:label xml:lang="en">heat</rdfs:label>
     </owl:Class>
     
 
@@ -14859,5 +14868,5 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
