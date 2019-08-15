@@ -1318,6 +1318,16 @@ is_a: IRO:0000188 ! pfmdr1 1034
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
+id: IRO:0000190
+name: heat
+is_a: IRO:0000034 ! attractant
+
+[Term]
+id: IRO:0000191
+name: shannon trap catch
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
 id: IRO:0001058
 name: organic infusion
 is_a: IRO:0000034 ! attractant
