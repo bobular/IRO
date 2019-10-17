@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
      xml:base="http://purl.obolibrary.org/obo/TEMP"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
     </owl:Ontology>
     
 
@@ -826,9 +826,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_50000004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABA receptor structural change</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000018</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABA receptor structural change</rdfs:label>
     </owl:Class>
     
 
@@ -1064,7 +1064,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
-        <obo:IAO_0000115>a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. Often dry ice is used as a carbon dioxide source to attract insects</obo:IAO_0000115>
         <oboInOwl:created_by>Sakelly</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>CO2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
@@ -2433,6 +2433,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>Visible light as an attractant for insects</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000139</oboInOwl:id>
@@ -2534,6 +2535,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Resistance-associated point mutation of amino acid at position 1532 (Ile-Thr) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide.</obo:IAO_0000115>
         <oboInOwl:created_by>sakelly</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label xml:lang="en">Kdr I1532T</rdfs:label>
@@ -2576,6 +2578,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000103"/>
+        <obo:IAO_0000115>The ligase detection reaction fluorescent microsphere assay allows multiplex assessment of multiple P. falciparum SNPs</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LDR-FMA</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">ligase detection reaction-fluorescent microsphere assay</rdfs:label>
     </owl:Class>
@@ -2596,6 +2599,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>no attractant used to attract insects</obo:IAO_0000115>
         <rdfs:label xml:lang="en">no attractant used</rdfs:label>
     </owl:Class>
     
@@ -2615,7 +2619,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000058"/>
-        <rdfs:comment>Insecticide is added directly to the thorax of the insect.</rdfs:comment>
+        <obo:IAO_0000115>Insecticide is added directly to the thorax of the insect.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">topical application assay</rdfs:label>
     </owl:Class>
     
@@ -2631,6 +2635,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Kdr I1532</rdfs:label>
     </owl:Class>
     
@@ -2660,6 +2665,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000000"/>
+        <obo:IAO_0000115>Yeast are single-celled fungi used to attract insects</obo:IAO_0000115>
         <rdfs:label xml:lang="en">yeast</rdfs:label>
     </owl:Class>
     
@@ -2669,6 +2675,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0001058"/>
+        <obo:IAO_0000115>chicken manure used to attract insects</obo:IAO_0000115>
         <rdfs:label xml:lang="en">chicken manure</rdfs:label>
     </owl:Class>
     
@@ -2708,6 +2715,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000137"/>
+        <obo:IAO_0000115>The rapid analyte measurement platform (RAMP) system is an immunoassay test for West Nile virus (WNV) detection. RAMP uses
+WNV-specific antibodies, conjugated to fluorescent latex particles, to determine the status of a sample</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RAMP</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Rapid Analyte Measurement Platform</rdfs:label>
     </owl:Class>
@@ -2718,6 +2727,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000137"/>
+        <obo:IAO_0000115>a single tube technique for the amplification of DNA. LAMP is an isothermal nucleic acid amplification technique.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LAMP</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Loop-mediated isothermal amplification</rdfs:label>
     </owl:Class>
@@ -3072,6 +3082,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>a heat source as an attractant for insects</obo:IAO_0000115>
         <rdfs:label xml:lang="en">heat</rdfs:label>
     </owl:Class>
     
@@ -3081,6 +3092,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>A trap, made of white cloth and mosquito netting, to attract and capture mosquitoes, using animal or light baits. It consisted of a large central compartment and two smaller lateral ones. The measurements, in metres (width, length and height), of the central and the lateral compartments were, respectively: 1.3 x 3 x 2 and 0.6 x 3 x 1.3. This trap is suspended by cords from trees or other supports</obo:IAO_0000115>
         <rdfs:label xml:lang="en">shannon trap catch</rdfs:label>
     </owl:Class>
     
@@ -3102,6 +3114,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0001058"/>
+        <obo:IAO_0000115>A plant infusion used to attract insects</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawson</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001059</oboInOwl:id>
@@ -12602,6 +12615,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_20000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000096"/>
+        <obo:IAO_0000115>PCR amplification of specific alleles</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PASA</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:20000100</oboInOwl:id>
@@ -12754,6 +12768,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_20000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_20000096"/>
+        <obo:IAO_0000115>restriction fragment length polymorphism is a technique that exploits variations in homologous DNA sequences, known as polymorphisms, in order to distinguish individuals, populations, or species or to pinpoint the locations of genes within a sequence.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:20000113</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCR-RFLP</rdfs:label>
@@ -14877,5 +14892,5 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
