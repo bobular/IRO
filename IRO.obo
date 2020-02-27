@@ -191,7 +191,7 @@ created_by: skelly
 
 [Term]
 id: IRO:0000018
-name: GABA receptor structural change
+def: "GABA receptor structural change" []
 is_a: IDOMAL:50000004 ! mutated protein
 
 [Term]
@@ -306,7 +306,7 @@ created_by: Sakelly
 [Term]
 id: IRO:0000035
 name: carbon dioxide
-def: "a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 per cent) and is absorbed by plants in photosynthesis." []
+def: "a colourless, odourless gas produced by burning carbon and organic compounds and by respiration. Often dry ice is used as a carbon dioxide source to attract insects" []
 synonym: "CO2" EXACT []
 is_a: IRO:0000034 ! attractant
 created_by: Sakelly
@@ -1011,6 +1011,7 @@ is_a: IRO:0000137 ! pathogen detection method
 [Term]
 id: IRO:0000139
 name: light
+def: "Visible light as an attractant for insects" []
 is_a: IRO:0000034 ! attractant
 created_by: lawson
 
@@ -1059,6 +1060,7 @@ created_by: sakelly
 [Term]
 id: IRO:0000147
 name: Kdr I1532T
+def: "Resistance-associated point mutation of amino acid at position 1532 (Ile-Thr) in the insecticide target sodium channel gene product causing a structural change and decreased response to the insecticide." []
 is_a: IRO:0000146 ! Kdr I1532
 relationship: has_quality MIRO:00000113 ! sodium channel structural change
 created_by: sakelly
@@ -1085,6 +1087,7 @@ is_a: IRO:0000148 ! esterase activity assay
 [Term]
 id: IRO:0000151
 name: ligase detection reaction-fluorescent microsphere assay
+def: "The ligase detection reaction fluorescent microsphere assay allows multiplex assessment of multiple P. falciparum SNPs" []
 synonym: "LDR-FMA" EXACT []
 is_a: MIRO:20000103 ! ligation detection reaction
 
@@ -1097,6 +1100,7 @@ is_a: MIRO:30000032 ! field population
 [Term]
 id: IRO:0000153
 name: no attractant used
+def: "no attractant used to attract insects" []
 is_a: IRO:0000034 ! attractant
 
 [Term]
@@ -1108,12 +1112,13 @@ is_a: MIRO:30000011 ! trap catch
 [Term]
 id: IRO:0000155
 name: topical application assay
-comment: Insecticide is added directly to the thorax of the insect.
+def: "Insecticide is added directly to the thorax of the insect." []
 is_a: MIRO:20000058 ! bioassay
 
 [Term]
 id: IRO:0000156
 name: Kdr I1532
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
 is_a: IRO:0000146 ! Kdr I1532
 relationship: has_quality IRO:0000001 ! wild type allele information
 
@@ -1132,11 +1137,13 @@ is_a: IRO:0000157 ! live animal bait
 [Term]
 id: IRO:0000159
 name: yeast
+def: "Yeast are single-celled fungi used to attract insects" []
 is_a: MIRO:30000000 ! biological material
 
 [Term]
 id: IRO:0000160
 name: chicken manure
+def: "chicken manure used to attract insects" []
 is_a: IRO:0001058 ! organic infusion
 
 [Term]
@@ -1160,12 +1167,14 @@ is_a: MIRO:30000065 ! light trap catch
 [Term]
 id: IRO:0000164
 name: Rapid Analyte Measurement Platform
+def: "The rapid analyte measurement platform (RAMP) system is an immunoassay test for West Nile virus (WNV) detection. RAMP uses\nWNV-specific antibodies, conjugated to fluorescent latex particles, to determine the status of a sample" []
 synonym: "RAMP" EXACT []
 is_a: IRO:0000137 ! pathogen detection method
 
 [Term]
 id: IRO:0000165
 name: Loop-mediated isothermal amplification
+def: "a single tube technique for the amplification of DNA. LAMP is an isothermal nucleic acid amplification technique." []
 synonym: "LAMP" EXACT []
 is_a: IRO:0000137 ! pathogen detection method
 
@@ -1320,11 +1329,13 @@ relationship: has_quality IRO:0000001 ! wild type allele information
 [Term]
 id: IRO:0000190
 name: heat
+def: "a heat source as an attractant for insects" []
 is_a: IRO:0000034 ! attractant
 
 [Term]
 id: IRO:0000191
 name: shannon trap catch
+def: "A trap, made of white cloth and mosquito netting, to attract and capture mosquitoes, using animal or light baits. It consisted of a large central compartment and two smaller lateral ones. The measurements, in metres (width, length and height), of the central and the lateral compartments were, respectively: 1.3 x 3 x 2 and 0.6 x 3 x 1.3. This trap is suspended by cords from trees or other supports" []
 is_a: MIRO:30000011 ! trap catch
 
 [Term]
@@ -1336,6 +1347,7 @@ created_by: lawson
 [Term]
 id: IRO:0001059
 name: alfalfa infusion
+def: "A plant infusion used to attract insects" []
 is_a: IRO:0001058 ! organic infusion
 created_by: lawson
 
@@ -1357,7 +1369,7 @@ id: MIRO:00000001
 name: Rdl A296S
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: IRO:0000115 ! Rdl A296
-relationship: has_quality IRO:0000018 ! GABA receptor structural change
+relationship: has_quality IRO:0000018
 
 [Term]
 id: MIRO:00000002
@@ -1940,7 +1952,7 @@ id: MIRO:00000123
 name: Rdl A296G
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: IRO:0000115 ! Rdl A296
-relationship: has_quality IRO:0000018 ! GABA receptor structural change
+relationship: has_quality IRO:0000018
 
 [Term]
 id: MIRO:00000124
@@ -4662,6 +4674,7 @@ is_a: MIRO:20000004 ! molecular assay
 [Term]
 id: MIRO:20000100
 name: PCR amplification of specific alleles
+def: "PCR amplification of specific alleles" []
 synonym: "PASA" RELATED []
 is_a: MIRO:20000096 ! monitoring known mutations
 
@@ -4718,6 +4731,7 @@ is_a: MIRO:20000035 ! RT-PCR assay
 [Term]
 id: MIRO:20000113
 name: PCR-RFLP
+def: "restriction fragment length polymorphism is a technique that exploits variations in homologous DNA sequences, known as polymorphisms, in order to distinguish individuals, populations, or species or to pinpoint the locations of genes within a sequence." []
 is_a: MIRO:20000096 ! monitoring known mutations
 
 [Term]
