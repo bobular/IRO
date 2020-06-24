@@ -3111,7 +3111,7 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000192"/>
-        <rdfs:label xml:lang="en">UV light</rdfs:label>
+        <rdfs:label xml:lang="en">UV light source</rdfs:label>
     </owl:Class>
     
 
