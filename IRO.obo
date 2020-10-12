@@ -1010,9 +1010,9 @@ is_a: IRO:0000137 ! pathogen detection method
 
 [Term]
 id: IRO:0000139
-name: light
+name: visible light
 def: "Visible light as an attractant for insects" []
-is_a: IRO:0000034 ! attractant
+is_a: IRO:0000192 ! light
 created_by: lawson
 
 [Term]
@@ -1336,6 +1336,22 @@ is_a: IRO:0000034 ! attractant
 id: IRO:0000191
 name: shannon trap catch
 def: "A trap, made of white cloth and mosquito netting, to attract and capture mosquitoes, using animal or light baits. It consisted of a large central compartment and two smaller lateral ones. The measurements, in metres (width, length and height), of the central and the lateral compartments were, respectively: 1.3 x 3 x 2 and 0.6 x 3 x 1.3. This trap is suspended by cords from trees or other supports" []
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
+id: IRO:0000192
+name: light
+is_a: IRO:0000034 ! attractant
+
+[Term]
+id: IRO:0000193
+name: UV light source
+is_a: IRO:0000192 ! light
+
+[Term]
+id: IRO:0000194
+name: exit trap catch
+def: "A method designed to catch specimens as they exit a building." []
 is_a: MIRO:30000011 ! trap catch
 
 [Term]
@@ -4927,7 +4943,7 @@ is_a: MIRO:30000017 ! man biting catch
 id: MIRO:30000020
 name: outlet window trap catch
 def: "A method designed to catch specimens using an outlet window trap." [KL:KL]
-is_a: MIRO:30000011 ! trap catch
+is_a: IRO:0000194 ! exit trap catch
 
 [Term]
 id: MIRO:30000021
