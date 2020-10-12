@@ -3116,6 +3116,16 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>A method designed to catch specimens as they exit a building.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exit trap catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0001058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0001058">
@@ -13347,7 +13357,7 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     <!-- http://purl.obolibrary.org/obo/MIRO_30000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_30000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000194"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method designed to catch specimens using an outlet window trap.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000020</oboInOwl:id>
