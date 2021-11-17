@@ -14951,7 +14951,7 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000110"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Pyrethroid resistance associated point mutation (L-F), located within a p450 gene in the 2La inversion.</obo:IAO_0000115>
