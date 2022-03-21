@@ -14973,6 +14973,26 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
         <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Cyp4j5 L43</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO:0600016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The Mosquito Magnet LibertyTM is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The trap also utilizes octenol as an attractant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mosquito magnet liberty plustm catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO:0600017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">lurex</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
