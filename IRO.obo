@@ -1400,6 +1400,23 @@ is_a: IRO:0600014 ! Cyp4j5 L43
 relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
+id: IRO:0600016
+name: mosquito magnet liberty plustm catch
+def: "The Mosquito Magnet LibertyTM is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The trap also utilizes octenol as an attractant." []
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
+id: IRO:0600017
+name: lurex
+def: "Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes." []
+is_a: IRO:0000034 ! attractant
+
+[Term]
+id: IRO:0600057
+name: citizen science collection
+is_a: MIRO:30000044 ! field population catch
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
@@ -5434,23 +5451,6 @@ is_a: MIRO:30000065 ! light trap catch
 [Term]
 id: bfo:Entity
 name: entity
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600016
-name: mosquito magnet liberty plustm catch
-def: "The Mosquito Magnet LibertyTM is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The trap also utilizes octenol as an attractant." []
-is_a: MIRO:30000011 ! trap catch
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600017
-name: lurex
-def: "Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes." []
-is_a: IRO:0000034 ! attractant
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600057
-name: citizen science collection
-is_a: MIRO:30000044 ! field population catch
 
 [Term]
 id: snap:Continuant

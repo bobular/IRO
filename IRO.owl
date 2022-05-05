@@ -3221,6 +3221,35 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0600016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
+        <obo:IAO_0000115>The Mosquito Magnet LibertyTM is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The trap also utilizes octenol as an attractant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mosquito magnet liberty plustm catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
+        <obo:IAO_0000115>Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">lurex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000044"/>
+        <rdfs:label xml:lang="en">citizen science collection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
@@ -14973,35 +15002,6 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span:ProcessualEntity</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000011"/>
-        <obo:IAO_0000115>The Mosquito Magnet LibertyTM is one of the propane-powered traps that uses a counterflow technology to emit a plume of CO2, heat, and water vapor. The trap also utilizes octenol as an attractant.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mosquito magnet liberty plustm catch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0000034"/>
-        <obo:IAO_0000115>Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">lurex</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000044"/>
-        <rdfs:label xml:lang="en">citizen science collection</rdfs:label>
-    </owl:Class>
 </rdf:RDF>
 
 
