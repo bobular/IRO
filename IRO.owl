@@ -14919,9 +14919,9 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
     
 
 
-    <!-- http://purl.obolibrary.org/obo/Cyp4pj5_L43_(IRO:0600014) -->
+    <!-- http://purl.obolibrary.org/obo/IRO_0600014 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Cyp4pj5_L43_(IRO:0600014)">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO:0600012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -14947,7 +14947,7 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
     <!-- http://purl.obolibrary.org/obo/IRO:0600013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Cyp4pj5_L43_(IRO:0600014)"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
@@ -14963,7 +14963,7 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
     <!-- http://purl.obolibrary.org/obo/IRO:0600015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Cyp4pj5_L43_(IRO:0600014)"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
