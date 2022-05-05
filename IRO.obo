@@ -191,7 +191,7 @@ created_by: skelly
 
 [Term]
 id: IRO:0000018
-def: "GABA receptor structural change" []
+name: GABA receptor structural change
 is_a: IDOMAL:50000004 ! mutated protein
 
 [Term]
@@ -1427,7 +1427,7 @@ id: MIRO:00000001
 name: Rdl A296S
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: IRO:0000115 ! Rdl A296
-relationship: has_quality IRO:0000018
+relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
 id: MIRO:00000002
@@ -2010,7 +2010,7 @@ id: MIRO:00000123
 name: Rdl A296G
 def: "Resistance-associated point mutation of amino acid at position 296 in the insecticide target GABA receptor gene product causing a structural change and decreased response to the insecticide." []
 is_a: IRO:0000115 ! Rdl A296
-relationship: has_quality IRO:0000018
+relationship: has_quality IRO:0000018 ! GABA receptor structural change
 
 [Term]
 id: MIRO:00000124
