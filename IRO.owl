@@ -14993,6 +14993,15 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
         <obo:IAO_0000115>Lurex is a mosquito attractant that mimics naturally occurring human skin scents or odors known to attract mosquitoes.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lurex</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO:0600057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000044"/>
+        <rdfs:label xml:lang="en">citizen collection</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
