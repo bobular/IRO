@@ -1375,10 +1375,29 @@ is_a: IRO:0000034 ! attractant
 created_by: lawson
 
 [Term]
+id: IRO:0600012
+name: cytochrome P450
+is_a: MIRO:10000220 ! protein
+
+[Term]
+id: IRO:0600013
+name: Cyp4j5 L43F
+def: "Pyrethroid resistance associated point mutation (L-F), located within a p450 gene in the 2La inversion." []
+is_a: IRO:0600014 ! Cyp4j5 L43
+relationship: has_quality MIRO:00000102 ! structural change of product in CYP4 gene family
+
+[Term]
 id: IRO:0600014
 name: Cyp4j5 L43
-is_a: http://purl.obolibrary.org/obo/IRO:0600012 ! cytochrome P450
+is_a: IRO:0600012 ! cytochrome P450
 relationship: has_quality IRO:0000123 ! sequence variant position
+
+[Term]
+id: IRO:0600015
+name: Cyp4j5 L43
+def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
+is_a: IRO:0600014 ! Cyp4j5 L43
+relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
 id: MIRO:00000000
@@ -5415,25 +5434,6 @@ is_a: MIRO:30000065 ! light trap catch
 [Term]
 id: bfo:Entity
 name: entity
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600012
-name: cytochrome P450
-is_a: MIRO:10000220 ! protein
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600013
-name: Cyp4j5 L43F
-def: "Pyrethroid resistance associated point mutation (L-F), located within a p450 gene in the 2La inversion." []
-is_a: IRO:0600014 ! Cyp4j5 L43
-relationship: has_quality MIRO:00000102 ! structural change of product in CYP4 gene family
-
-[Term]
-id: http://purl.obolibrary.org/obo/IRO:0600015
-name: Cyp4j5 L43
-def: "The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility." []
-is_a: IRO:0600014 ! Cyp4j5 L43
-relationship: has_quality IRO:0000001 ! wild type allele information
 
 [Term]
 id: http://purl.obolibrary.org/obo/IRO:0600016

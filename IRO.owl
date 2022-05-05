@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
      xml:base="http://purl.obolibrary.org/obo/TEMP"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDO</oboInOwl:treat-xrefs-as-equivalent>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
-        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</oboInOwl:treat-xrefs-as-equivalent>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forked from MIRO on 25-05-2016 from miro-2015-01-24</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an alpha version and is only for experimental implementation.</rdfs:comment>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snap</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">span</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO</oboInOwl:treat-xrefs-as-equivalent>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial release version.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version $Revision: 3.0.0$</rdfs:comment>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:default-namespace>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</oboInOwl:treat-xrefs-as-equivalent>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:05:2016 12:26</oboInOwl:date>
     </owl:Ontology>
     
 
@@ -3160,6 +3160,63 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide_resistance_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001060</oboInOwl:id>
         <rdfs:label xml:lang="en">BG-lure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
+        <rdfs:label xml:lang="en">cytochrome P450</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pyrethroid resistance associated point mutation (L-F), located within a p450 gene in the 2La inversion.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Cyp4j5 L43F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>IRO:0600014</oboInOwl:id>
+        <rdfs:label xml:lang="en">Cyp4j5 L43</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Cyp4j5 L43</rdfs:label>
     </owl:Class>
     
 
@@ -14919,63 +14976,6 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IRO_0600014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO:0600012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000123"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:id>IRO:0600014</oboInOwl:id>
-        <rdfs:label xml:lang="en">Cyp4j5 L43</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000220"/>
-        <rdfs:label xml:lang="en">cytochrome P450</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIRO_00000102"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Pyrethroid resistance associated point mutation (L-F), located within a p450 gene in the 2La inversion.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Cyp4j5 L43F</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IRO:0600015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600014"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_quality"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IRO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The most commonly observed amino acid at this position, commonly associated with insecticide susceptibility.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Cyp4j5 L43</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IRO:0600016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO:0600016">
@@ -15006,5 +15006,5 @@ Examples: the life of an organism, the process of meiosis, the course of a disea
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
