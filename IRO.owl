@@ -14697,6 +14697,15 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VBcv_0600069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000051"/>
+        <rdfs:label xml:lang="en">blanket dragging catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/bfo_Entity -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo_Entity">
