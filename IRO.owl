@@ -3250,6 +3250,33 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0600061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000051"/>
+        <rdfs:label xml:lang="en">flagging catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000044"/>
+        <rdfs:label xml:lang="en">passive surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000051"/>
+        <rdfs:label xml:lang="en">blanket dragging catch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
@@ -14675,33 +14702,6 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
         <obo:IAO_0000115>Light trap catch set at height of tree canopy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">canopy light trap catch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000051"/>
-        <rdfs:label xml:lang="en">flagging catch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000044"/>
-        <rdfs:label xml:lang="en">passive surveillance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600069 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000051"/>
-        <rdfs:label xml:lang="en">blanket dragging catch</rdfs:label>
     </owl:Class>
     
 
