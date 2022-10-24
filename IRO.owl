@@ -3277,6 +3277,33 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0600078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000052"/>
+        <rdfs:label xml:lang="en">human baited double net trap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600078"/>
+        <rdfs:label xml:lang="en">human baited double net trap - indoors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600078"/>
+        <rdfs:label xml:lang="en">human baited double net trap - outdoors</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IRO_0600081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600081">
@@ -14711,33 +14738,6 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000065"/>
         <obo:IAO_0000115>Light trap catch set at height of tree canopy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">canopy light trap catch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_30000052"/>
-        <rdfs:label xml:lang="en">human baited double net trap</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600079 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBcv_0600078"/>
-        <rdfs:label xml:lang="en">human baited double net trap - indoors</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBcv_0600080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBcv_0600080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBcv_0600078"/>
-        <rdfs:label xml:lang="en">human baited double net trap - outdoors</rdfs:label>
     </owl:Class>
     
 

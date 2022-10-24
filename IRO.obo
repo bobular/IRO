@@ -1432,6 +1432,21 @@ name: blanket dragging catch
 is_a: MIRO:30000051 ! terrain environment catch
 
 [Term]
+id: IRO:0600078
+name: human baited double net trap
+is_a: MIRO:30000052 ! collection of adults
+
+[Term]
+id: IRO:0600079
+name: human baited double net trap - indoors
+is_a: IRO:0600078 ! human baited double net trap
+
+[Term]
+id: IRO:0600080
+name: human baited double net trap - outdoors
+is_a: IRO:0600078 ! human baited double net trap
+
+[Term]
 id: IRO:0600081
 name: cow-baited tent collection
 is_a: MIRO:30000052 ! collection of adults
@@ -5467,21 +5482,6 @@ id: VBcv:0003980
 name: canopy light trap catch
 def: "Light trap catch set at height of tree canopy." []
 is_a: MIRO:30000065 ! light trap catch
-
-[Term]
-id: VBcv:0600078
-name: human baited double net trap
-is_a: MIRO:30000052 ! collection of adults
-
-[Term]
-id: VBcv:0600079
-name: human baited double net trap - indoors
-is_a: VBcv:0600078 ! human baited double net trap
-
-[Term]
-id: VBcv:0600080
-name: human baited double net trap - outdoors
-is_a: VBcv:0600078 ! human baited double net trap
 
 [Term]
 id: bfo:Entity
