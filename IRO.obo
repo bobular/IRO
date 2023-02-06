@@ -1452,6 +1452,16 @@ name: cow-baited tent collection
 is_a: MIRO:30000052 ! collection of adults
 
 [Term]
+id: IRO:0600088
+name: resting clay pot catch
+is_a: MIRO:30000043 ! catch by aspiration
+
+[Term]
+id: IRO:0600089
+name: human baited light trap catch
+is_a: MIRO:30000011 ! trap catch
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
