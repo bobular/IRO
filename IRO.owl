@@ -3358,6 +3358,42 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0600112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000225"/>
+        <rdfs:label xml:lang="en">Kdr L995</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600112"/>
+        <rdfs:label xml:lang="en">Kdr L995</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600112"/>
+        <rdfs:label xml:lang="en">Kdr L995S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600112"/>
+        <rdfs:label xml:lang="en">Kdr L995F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
