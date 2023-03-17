@@ -3331,6 +3331,33 @@ WNV-specific antibodies, conjugated to fluorescent latex particles, to determine
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IRO_0600109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIRO_10000222"/>
+        <rdfs:label xml:lang="en">AChE1 G280</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600109"/>
+        <rdfs:label xml:lang="en">AChE1 G280</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IRO_0600111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IRO_0600111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IRO_0600109"/>
+        <rdfs:label xml:lang="en">AChE1 G280S</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIRO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIRO_00000000">
