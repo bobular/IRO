@@ -1462,6 +1462,46 @@ name: human baited light trap catch
 is_a: MIRO:30000011 ! trap catch
 
 [Term]
+id: IRO:0600109
+name: AChE1 G280
+is_a: MIRO:10000222 ! acetylcholinesterase
+
+[Term]
+id: IRO:0600110
+name: AChE1 G280
+is_a: IRO:0600109 ! AChE1 G280
+
+[Term]
+id: IRO:0600111
+name: AChE1 G280S
+is_a: IRO:0600109 ! AChE1 G280
+
+[Term]
+id: IRO:0600112
+name: Kdr L995
+is_a: MIRO:10000225 ! voltage-gated sodium channel
+
+[Term]
+id: IRO:0600113
+name: Kdr L995
+is_a: IRO:0600112 ! Kdr L995
+
+[Term]
+id: IRO:0600114
+name: Kdr L995S
+is_a: IRO:0600112 ! Kdr L995
+
+[Term]
+id: IRO:0600115
+name: Kdr L995F
+is_a: IRO:0600112 ! Kdr L995
+
+[Term]
+id: IRO:0600116
+name: C02 tick trap
+is_a: MIRO:30000051 ! terrain environment catch
+
+[Term]
 id: MIRO:00000000
 name: resistance
 def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." [IRAC:manual]
